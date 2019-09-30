@@ -249,3 +249,57 @@
 2019-09-30 11:49:20,021 INFO 3346 [egg-redis] instance[0] status OK, client ready
 2019-09-30 11:49:20,047 INFO 3346 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 30 2019 11:49:20 GMT+0800 (GMT+08:00)
 2019-09-30 11:49:20,072 INFO 3346 [egg:core] dump config after ready, 6ms
+2019-09-30 11:59:49,151 INFO 3682 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/my_project/ynow-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-30 11:59:49,185 INFO 3682 [egg-multipart] stream mode enable
+2019-09-30 11:59:49,186 INFO 3682 [egg-mysql] connecting root@39.108.138.156:3306/kyzb
+2019-09-30 11:59:49,286 INFO 3682 [egg-redis] server connecting redis://:***@39.108.138.156:6379/0
+2019-09-30 11:59:49,425 INFO 3682 [egg-static] starting static serve /public/ -> /Users/arraybuffer/my_project/ynow-egg/app/public
+2019-09-30 11:59:49,428 INFO 3682 [egg-security] use methodnoallow middleware
+2019-09-30 11:59:49,429 INFO 3682 [egg-security] use noopen middleware
+2019-09-30 11:59:49,430 INFO 3682 [egg-security] use nosniff middleware
+2019-09-30 11:59:49,430 INFO 3682 [egg-security] use xssProtection middleware
+2019-09-30 11:59:49,431 INFO 3682 [egg-security] use xframe middleware
+2019-09-30 11:59:49,431 INFO 3682 [egg-security] use dta middleware
+2019-09-30 11:59:49,431 INFO 3682 [egg-security] compose 6 middlewares into one security middleware
+2019-09-30 11:59:49,497 INFO 3682 [egg:core] dump config after load, 6ms
+2019-09-30 11:59:49,522 INFO 3682 [egg-watcher:application] watcher start success
+2019-09-30 11:59:49,525 INFO 3682 [egg-redis] client connect success
+2019-09-30 11:59:49,710 INFO 3682 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 30 2019 11:59:49 GMT+0800 (GMT+08:00)
+2019-09-30 11:59:49,904 INFO 3682 [egg-redis] instance[0] status OK, client ready
+2019-09-30 11:59:49,927 INFO 3682 [egg:core] dump config after ready, 6ms
+2019-09-30 11:59:50,605 INFO 3683 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/my_project/ynow-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-30 11:59:50,636 INFO 3683 [egg-multipart] stream mode enable
+2019-09-30 11:59:50,636 INFO 3683 [egg-mysql] connecting root@39.108.138.156:3306/kyzb
+2019-09-30 11:59:50,701 INFO 3683 [egg-redis] server connecting redis://:***@39.108.138.156:6379/0
+2019-09-30 11:59:50,799 INFO 3683 [egg-static] starting static serve /public/ -> /Users/arraybuffer/my_project/ynow-egg/app/public
+2019-09-30 11:59:50,802 INFO 3683 [egg-security] use methodnoallow middleware
+2019-09-30 11:59:50,802 INFO 3683 [egg-security] use noopen middleware
+2019-09-30 11:59:50,803 INFO 3683 [egg-security] use nosniff middleware
+2019-09-30 11:59:50,803 INFO 3683 [egg-security] use xssProtection middleware
+2019-09-30 11:59:50,803 INFO 3683 [egg-security] use xframe middleware
+2019-09-30 11:59:50,803 INFO 3683 [egg-security] use dta middleware
+2019-09-30 11:59:50,804 INFO 3683 [egg-security] compose 6 middlewares into one security middleware
+2019-09-30 11:59:50,856 INFO 3683 [egg:core] dump config after load, 8ms
+2019-09-30 11:59:50,881 INFO 3683 [egg-redis] client connect success
+2019-09-30 11:59:50,884 INFO 3683 [egg-watcher:application] watcher start success
+2019-09-30 11:59:50,893 INFO 3683 [egg-redis] instance[0] status OK, client ready
+2019-09-30 11:59:50,985 INFO 3683 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 30 2019 11:59:50 GMT+0800 (GMT+08:00)
+2019-09-30 11:59:51,003 INFO 3683 [egg:core] dump config after ready, 6ms
+2019-09-30 13:52:21,712 INFO 3844 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/my_project/ynow-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-30 13:52:21,746 INFO 3844 [egg-multipart] stream mode enable
+2019-09-30 13:52:21,746 INFO 3844 [egg-mysql] connecting root@39.108.138.156:3306/kyzb
+2019-09-30 13:52:21,857 INFO 3844 [egg-redis] server connecting redis://:***@39.108.138.156:6379/0
+2019-09-30 13:52:22,004 INFO 3844 [egg-static] starting static serve /public/ -> /Users/arraybuffer/my_project/ynow-egg/app/public
+2019-09-30 13:52:22,007 INFO 3844 [egg-security] use methodnoallow middleware
+2019-09-30 13:52:22,008 INFO 3844 [egg-security] use noopen middleware
+2019-09-30 13:52:22,008 INFO 3844 [egg-security] use nosniff middleware
+2019-09-30 13:52:22,009 INFO 3844 [egg-security] use xssProtection middleware
+2019-09-30 13:52:22,010 INFO 3844 [egg-security] use xframe middleware
+2019-09-30 13:52:22,010 INFO 3844 [egg-security] use dta middleware
+2019-09-30 13:52:22,010 INFO 3844 [egg-security] compose 6 middlewares into one security middleware
+2019-09-30 13:52:22,082 INFO 3844 [egg:core] dump config after load, 7ms
+2019-09-30 13:52:22,103 INFO 3844 [egg-redis] client connect success
+2019-09-30 13:52:22,106 INFO 3844 [egg-watcher:application] watcher start success
+2019-09-30 13:52:22,117 INFO 3844 [egg-redis] instance[0] status OK, client ready
+2019-09-30 13:52:22,134 INFO 3844 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 30 2019 13:52:22 GMT+0800 (GMT+08:00)
+2019-09-30 13:52:22,156 INFO 3844 [egg:core] dump config after ready, 5ms

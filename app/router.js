@@ -14,9 +14,9 @@ module.exports = app => {
   router.get('/user/userInfo', controller.user.getUserInfo)
   router.post('/user/userInfo', controller.user.updateUserInfo)
   router.get('/user/profile', controller.user.getUserProfile)
-  router.get('/user/follow', controller.userCollect.followList) // 获取我关注的人
-  router.post('/user/follow', controller.userCollect.addFollow) // 添加关注
-  router.delete('/user/follow/:followId', controller.userCollect.remove) // 取消关注
+  // router.get('/user/follow', controller.userCollect.followList) // 获取我关注的人
+  // router.post('/user/follow', controller.userCollect.addFollow) // 添加关注
+  // router.delete('/user/follow/:followId', controller.userCollect.remove) // 取消关注
 
   // 签到模块 -----------------------------------------------------------------------------------
   router.post('/checkin', controller.checkin.checkin) // 签到
