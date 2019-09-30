@@ -59,6 +59,7 @@ class UserService extends Service {
     result = await this.app.redis.set(`${loginToken}`, user.id);
 
     if (result === 'OK') {
+      delete user.password;
       return {
         retCode: '0',
         errCode: '0',
@@ -105,6 +106,7 @@ class UserService extends Service {
     let result = await this.app.redis.set(`${loginToken}`, user.id);
     console.log('set redis login token: ' + result)
     if (result === 'OK') {
+      delete user.password;
       return {
         retCode: '0',
         errCode: '0',
@@ -136,6 +138,7 @@ class UserService extends Service {
 
     let user = await this.app.mysql.get('user', { id: userId });
     if (user) {
+      delete user.password;
       return {
         retCode: '0',
         errCode: '0',
@@ -203,6 +206,7 @@ class UserService extends Service {
   async checkLoginState({ token }) {
     let uid = await this.getUserIdByToken(token)
     return {
+      errMsg: '',
       retCode: 0,
       errCode: 0,
       data: {

@@ -18,13 +18,15 @@
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
         "enable": false,
-        "useSession": false,
+        "type": "ctoken",
         "ignoreJSON": false,
+        "useSession": false,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
-        "queryName": "_csrf"
+        "queryName": "_csrf",
+        "refererWhiteList": []
       },
       "xframe": {
         "enable": true,
@@ -85,29 +87,29 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-session@3.1.0@egg-session/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-schedule@3.6.4@egg-schedule/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-development@2.4.3@egg-development/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-static@2.2.0@egg-static/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-view@2.1.2@egg-view/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-mysql@3.0.0@egg-mysql/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-redis@2.4.0@egg-redis/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-cors@2.2.0@egg-cors/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-socket.io@4.1.6@egg-socket.io/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/locales",
-        "/Users/arraybuffer/my_project/kyzb-egg/config/locales"
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-session@3.1.0@egg-session/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-security@2.6.1@egg-security/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-schedule@3.6.4@egg-schedule/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-development@2.4.3@egg-development/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-static@2.2.0@egg-static/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-view@2.1.2@egg-view/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-mysql@3.0.0@egg-mysql/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-redis@2.4.0@egg-redis/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-cors@2.2.0@egg-cors/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-socket.io@4.1.6@egg-socket.io/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg@2.23.0@egg/config/locales",
+        "/Users/arraybuffer/my_project/ynow-egg/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -118,8 +120,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
-        "development": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
+        "default": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
+        "development": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -142,7 +144,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "/var/folders/y6/wfrvn_7139xf0975fhllpw800000gn/T/egg-multipart-tmp/kyzb-egg",
+      "tmpdir": "/var/folders/y6/wfrvn_7139xf0975fhllpw800000gn/T/egg-multipart-tmp/xz-egg",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -165,14 +167,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/arraybuffer/my_project/kyzb-egg/app/public",
+      "dir": "/Users/arraybuffer/my_project/ynow-egg/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/arraybuffer/my_project/kyzb-egg/app/view",
+      "root": "/Users/arraybuffer/my_project/ynow-egg/app/view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -225,15 +227,15 @@
       }
     },
     "env": "local",
-    "name": "kyzb-egg",
-    "keys": "<String len: 27>",
+    "name": "xz-egg",
+    "keys": "<String len: 25>",
     "proxy": false,
     "maxProxyCount": 0,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
     "pkg": {
-      "name": "kyzb-egg",
+      "name": "xz-egg",
       "version": "1.0.0",
       "description": "",
       "private": true,
@@ -263,8 +265,8 @@
         "node": ">=8.9.0"
       },
       "scripts": {
-        "start": "egg-scripts start --daemon --title=kyzb-egg --sticky",
-        "stop": "egg-scripts stop --title=kyzb-egg",
+        "start": "egg-scripts start --daemon --title=xz-egg --sticky",
+        "stop": "egg-scripts stop --title=xz-egg",
         "dev": "egg-bin dev --sticky",
         "debug": "egg-bin debug",
         "test": "npm run lint -- --fix && npm run test-local",
@@ -284,9 +286,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "/Users/arraybuffer/my_project/kyzb-egg",
+    "baseDir": "/Users/arraybuffer/my_project/ynow-egg",
     "HOME": "/Users/arraybuffer",
-    "rundir": "/Users/arraybuffer/my_project/kyzb-egg/run",
+    "rundir": "/Users/arraybuffer/my_project/ynow-egg/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -317,7 +319,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/arraybuffer/my_project/kyzb-egg/logs/kyzb-egg",
+      "dir": "/Users/arraybuffer/my_project/ynow-egg/logs/xz-egg",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -325,7 +327,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "kyzb-egg-web.log",
+      "appLogName": "xz-egg-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
@@ -413,8 +415,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-session@3.1.0@egg-session",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-session@3.1.0@egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -426,9 +428,9 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security",
-      "version": "2.5.0"
+      "from": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-security@2.6.1@egg-security",
+      "version": "2.6.1"
     },
     "jsonp": {
       "enable": true,
@@ -439,8 +441,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -452,8 +454,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-onerror@2.1.0@egg-onerror",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -463,8 +465,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-i18n@2.1.1@egg-i18n",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-i18n@2.1.1@egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -474,8 +476,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-watcher@3.1.0@egg-watcher",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-watcher@3.1.0@egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -485,8 +487,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-schedule@3.6.4@egg-schedule",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-schedule@3.6.4@egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -498,9 +500,9 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart",
-      "version": "2.7.1"
+      "from": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-multipart@2.9.0@egg-multipart",
+      "version": "2.9.0"
     },
     "development": {
       "enable": true,
@@ -513,8 +515,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-development@2.4.3@egg-development",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-development@2.4.3@egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -526,8 +528,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -537,8 +539,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-static@2.2.0@egg-static",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-static@2.2.0@egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -548,8 +550,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-view@2.1.2@egg-view",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg@2.23.0@egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-view@2.1.2@egg-view",
       "version": "2.1.2"
     },
     "mysql": {
@@ -559,8 +561,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-mysql@3.0.0@egg-mysql",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-mysql@3.0.0@egg-mysql",
       "version": "3.0.0"
     },
     "redis": {
@@ -570,8 +572,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-redis@2.4.0@egg-redis",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-redis@2.4.0@egg-redis",
       "version": "2.4.0"
     },
     "cors": {
@@ -581,8 +583,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-cors@2.2.0@egg-cors",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-cors@2.2.0@egg-cors",
       "version": "2.2.0"
     },
     "io": {
@@ -594,8 +596,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/arraybuffer/my_project/kyzb-egg/config/plugin.js",
-      "path": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-socket.io@4.1.6@egg-socket.io",
+      "from": "/Users/arraybuffer/my_project/ynow-egg/config/plugin.js",
+      "path": "/Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-socket.io@4.1.6@egg-socket.io",
       "version": "4.1.6"
     }
   }
