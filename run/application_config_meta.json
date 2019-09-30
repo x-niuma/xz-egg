@@ -1,0 +1,335 @@
+{
+  "cluster": {
+    "listen": {
+      "path": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+      "port": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+      "hostname": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js"
+    }
+  },
+  "keys": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+      "useSession": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "cookieName": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "sessionName": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "headerName": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "bodyName": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "queryName": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.local.js",
+      "maxAge": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "policy": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "checkAddress": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    }
+  },
+  "mysql": {
+    "client": {
+      "host": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+      "port": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+      "user": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+      "password": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+      "database": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js"
+    },
+    "app": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+    "agent": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+    "default": {
+      "database": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-mysql@3.0.0@egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-mysql@3.0.0@egg-mysql/config/config.default.js"
+    }
+  },
+  "redis": {
+    "client": {
+      "host": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+      "port": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+      "user": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+      "password": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+      "db": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js"
+    },
+    "default": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
+    "app": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
+    "agent": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js",
+    "supportTimeCommand": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-redis@2.4.0@egg-redis/config/config.default.js"
+  },
+  "cors": {
+    "origin": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+    "allowMethods": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js"
+  },
+  "middleware": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+  "io": {
+    "init": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+    "namespace": {
+      "/": {
+        "connectionMiddleware": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js",
+        "packetMiddleware": "/Users/arraybuffer/my_project/kyzb-egg/config/config.default.js"
+      }
+    }
+  },
+  "session": {
+    "maxAge": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "dirs": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "queryField": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+      "development": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js",
+      "file": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "fields": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "files": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-multipart@2.7.1@egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "fastReady": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "mapping": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+  },
+  "env": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "name": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "proxy": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "maxProxyCount": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "version": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "description": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "private": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-cors": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-mysql": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-redis": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-scripts": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-socket.io": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "nodemailer": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "only": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "qiniu": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "utility": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "autod-egg": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-bin": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-ci": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "egg-mock": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "eslint": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "eslint-config-egg": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "stop": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "dev": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "debug": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "test": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "test-local": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "cov": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "lint": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "ci": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "autod": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "url": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    },
+    "author": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "license": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "baseDir": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "HOME": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "rundir": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "notFound": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "sitefile": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "middlewares": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "httpClient": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "encoding": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "formLimit": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "jsonLimit": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "strict": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "depth": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    },
+    "onerror": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "encoding": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "env": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "level": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "consoleLevel": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "outputJSON": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "buffer": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "appLogName": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "coreLogName": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "agentLogName": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "errorLogName": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "maxSockets": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "maxSockets": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "logging": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "serverTimeout": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js",
+    "responseTimeout": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/arraybuffer/my_project/kyzb-egg/node_modules/_egg@2.23.0@egg/config/config.default.js"
+}
