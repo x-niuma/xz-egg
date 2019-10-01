@@ -34,20 +34,6 @@ module.exports = app => {
   router.delete('/deliveryAddress/:id', controller.deliveryAddress.remove)
   router.get('/sfCity', controller.deliveryAddress.getSfCityList)
 
-  // 需求模块 --------------------------------------------------------------------------------------------
-  router.get('/demand', controller.demand.list)
-  router.get('/demand/search', controller.demand.search)
-  router.get('/demand/getUserCreateList', controller.demand.getUserCreateList)
-  router.post('/demand', controller.demand.create)
-  router.get('/demand/:itemId', controller.demand.show)
-  router.get('/projectCategory', controller.projectCatogory.list)
-
-  // 报名
-  router.get('/enroll', controller.enroll.list)
-  router.post('/enroll', controller.enroll.create)
-  router.get('/enrollStatus', controller.enroll.getEnrollStatus)
-  router.get('/userEnrollList', controller.enroll.getUserEnrollList)
-
   // qn 文件上传
   router.get('/upload/getToken', controller.upload.getToken)
 

@@ -10,7 +10,10 @@ function MyError({ errMsg, errCode }) {
 }
 
 class CheckinService extends Service {
-  // 通过用户ID查询该用户当天是否签到
+  /**
+   * 通过用户ID查询签到状态
+   * @param {*} uid 
+   */
   async isCheckinedByUid(uid) {
     const date = this.getToday();
     const result = await this.app.mysql.get('checkin', {
@@ -20,7 +23,10 @@ class CheckinService extends Service {
     return result;
   }
 
-  // 通过token查询该用户当天是否签到
+  /**
+   * 通过token查询该用户当天是否签到
+   * @param {*} token 
+   */
   async isCheckinedByToken(token) {
     const uid = await this.ctx.service.user.checkLogin(token);
     return await this.isCheckinedByUid(uid);
