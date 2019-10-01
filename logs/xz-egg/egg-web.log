@@ -303,3 +303,33 @@
 2019-09-30 13:52:22,117 INFO 3844 [egg-redis] instance[0] status OK, client ready
 2019-09-30 13:52:22,134 INFO 3844 [egg-mysql] instance[0] status OK, rds currentTime: Mon Sep 30 2019 13:52:22 GMT+0800 (GMT+08:00)
 2019-09-30 13:52:22,156 INFO 3844 [egg:core] dump config after ready, 5ms
+2019-09-30 17:06:24,536 ERROR 3844 [egg-redis] client error: Error: read ECONNRESET
+2019-09-30 17:06:24,538 ERROR 3844 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 3844
+hostname: bogon
+
+2019-09-30 17:06:24,604 INFO 3844 [egg-redis] client connect success
+2019-09-30 17:50:16,659 WARN 3844 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-10-01 15:44:53,240 INFO 11202 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/my_project/ynow-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-10-01 15:44:53,269 INFO 11202 [egg-multipart] stream mode enable
+2019-10-01 15:44:53,269 INFO 11202 [egg-mysql] connecting root@39.108.138.156:3306/kyzb
+2019-10-01 15:44:53,367 INFO 11202 [egg-redis] server connecting redis://:***@39.108.138.156:6379/0
+2019-10-01 15:44:53,505 INFO 11202 [egg-static] starting static serve /public/ -> /Users/arraybuffer/my_project/ynow-egg/app/public
+2019-10-01 15:44:53,507 INFO 11202 [egg-security] use methodnoallow middleware
+2019-10-01 15:44:53,507 INFO 11202 [egg-security] use noopen middleware
+2019-10-01 15:44:53,508 INFO 11202 [egg-security] use nosniff middleware
+2019-10-01 15:44:53,508 INFO 11202 [egg-security] use xssProtection middleware
+2019-10-01 15:44:53,509 INFO 11202 [egg-security] use xframe middleware
+2019-10-01 15:44:53,509 INFO 11202 [egg-security] use dta middleware
+2019-10-01 15:44:53,509 INFO 11202 [egg-security] compose 6 middlewares into one security middleware
+2019-10-01 15:44:53,578 INFO 11202 [egg:core] dump config after load, 6ms
+2019-10-01 15:44:53,599 INFO 11202 [egg-redis] client connect success
+2019-10-01 15:44:53,606 INFO 11202 [egg-watcher:application] watcher start success
+2019-10-01 15:44:53,612 INFO 11202 [egg-redis] instance[0] status OK, client ready
+2019-10-01 15:44:53,681 INFO 11202 [egg-mysql] instance[0] status OK, rds currentTime: Tue Oct 01 2019 15:44:53 GMT+0800 (GMT+08:00)
+2019-10-01 15:44:53,701 INFO 11202 [egg:core] dump config after ready, 5ms

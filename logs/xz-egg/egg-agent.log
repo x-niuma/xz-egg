@@ -26,3 +26,23 @@
 2019-09-30 11:59:48,911 INFO 3324 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/arraybuffer/my_project/ynow-egg/app/router.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8610617502,"size":3497,"blocks":8,"atimeMs":1569815988900.5256,"mtimeMs":1569815988901.2085,"ctimeMs":1569815988901.2085,"birthtimeMs":1569081075982.481,"atime":"2019-09-30T03:59:48.901Z","mtime":"2019-09-30T03:59:48.901Z","ctime":"2019-09-30T03:59:48.901Z","birthtime":"2019-09-21T15:51:15.982Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-09-30 13:52:20,748 WARN 3324 [agent:development] reload worker because /Users/arraybuffer/my_project/ynow-egg/config/config.default.js change
 2019-09-30 13:52:20,544 INFO 3324 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/arraybuffer/my_project/ynow-egg/config/config.default.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8610617440,"size":1168,"blocks":8,"atimeMs":1569822740483.3481,"mtimeMs":1569822740484.3828,"ctimeMs":1569822740484.3828,"birthtimeMs":1569081075984.0483,"atime":"2019-09-30T05:52:20.483Z","mtime":"2019-09-30T05:52:20.484Z","ctime":"2019-09-30T05:52:20.484Z","birthtime":"2019-09-21T15:51:15.984Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-09-30 17:50:16,660 ERROR 3324 nodejs.ClusterClientNoResponseError: client no response in 512770ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/my_project/ynow-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 3324
+hostname: bogon
+
+2019-10-01 15:44:52,524 INFO 11197 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/my_project/ynow-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-10-01 15:44:52,537 INFO 11197 [egg:core] dump config after load, 5ms
+2019-10-01 15:44:52,580 INFO 11197 [egg-watcher] Start watching: ["/Users/arraybuffer/my_project/ynow-egg/app","/Users/arraybuffer/my_project/ynow-egg/config","/Users/arraybuffer/my_project/ynow-egg/mocks","/Users/arraybuffer/my_project/ynow-egg/mocks_proxy","/Users/arraybuffer/my_project/ynow-egg/app.js"]
+2019-10-01 15:44:52,580 INFO 11197 [egg-watcher] Start watching: "/Users/arraybuffer/my_project/ynow-egg/app"
+2019-10-01 15:44:52,580 INFO 11197 [egg-watcher] Start watching: "/Users/arraybuffer/my_project/ynow-egg/config"
+2019-10-01 15:44:52,580 INFO 11197 [egg-watcher] Start watching: "/Users/arraybuffer/my_project/ynow-egg/mocks"
+2019-10-01 15:44:52,581 INFO 11197 [egg-watcher] Start watching: "/Users/arraybuffer/my_project/ynow-egg/mocks_proxy"
+2019-10-01 15:44:52,581 INFO 11197 [egg-watcher] Start watching: "/Users/arraybuffer/my_project/ynow-egg/app.js"
+2019-10-01 15:44:52,581 INFO 11197 [egg-watcher:agent] watcher start success
+2019-10-01 15:44:52,604 INFO 11197 [egg:core] dump config after ready, 5ms

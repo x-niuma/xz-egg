@@ -1,0 +1,20 @@
+2019-09-30 17:06:24,534 ERROR 3844 [egg-redis] client error: Error: read ECONNRESET
+2019-09-30 17:06:24,537 ERROR 3844 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 3844
+hostname: bogon
+
+2019-09-30 17:50:16,660 ERROR 3324 nodejs.ClusterClientNoResponseError: client no response in 512770ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/my_project/ynow-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 3324
+hostname: bogon
+
