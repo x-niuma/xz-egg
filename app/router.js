@@ -14,7 +14,8 @@ module.exports = app => {
   router.get('/user/userInfo', controller.user.getUserInfo)
   router.post('/user/userInfo', controller.user.updateUserInfo)
   router.get('/user/profile', controller.user.getUserProfile)
-  
+  router.get('/user/totalInfo', controller.user.getUserTotalInfo)
+
   // 关注
   router.get('/follow', controller.userCollect.followList) // 获取我关注的人
   router.post('/follow', controller.userCollect.addFollow) // 添加关注
@@ -36,6 +37,14 @@ module.exports = app => {
 
   // qn 文件上传
   router.get('/upload/getToken', controller.upload.getToken)
+
+  // 闲置商品 -----------------------------------------------------------------------------------
+  router.get('/xzProduct', controller.xzProduct.index)
+  router.post('/xzProduct', controller.xzProduct.create)
+  router.get('/xzProduct/:itemId', controller.xzProduct.show)
+  router.post('/xzProduct/:itemId', controller.xzProduct.update)
+  router.get('/user/xzProduct', controller.xzProduct.getProductByUserId)
+  router.get('/xzCategory', controller.xzCategory.index)
 
   // 收藏模块 --------------------------------------------------------------------------------
   router.get('/collect', controller.objectCollect.index)

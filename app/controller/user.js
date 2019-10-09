@@ -95,6 +95,17 @@ class UserController extends Controller {
       token
     });
   }
+
+  /**
+   * @description 获取用户信息
+   */
+  async getUserTotalInfo() {
+    const { ctx } = this;
+    const { token } = ctx.request.query;
+    ctx.body = await ctx.service.user.getUserTotalInfo({
+      token
+    });
+  }
 }
 
 module.exports = UserController;

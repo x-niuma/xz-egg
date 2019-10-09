@@ -245,6 +245,49 @@ class UserService extends Service {
     return this.ctx.service.xzProduct.index(uid);
   }
 
+  async getUserTotalInfo ({ token }) {
+    const uid = await this.app.redis.get(token);
+    if (!uid) {
+      throw new MyError({
+        retCode: '1',
+        errCode: '100005',
+        errMsg: '登录已失效'
+      });
+    }
+    const followListList =  await this.ctx.service.userCollect.followList({
+      uid
+    })
+    const likeList = await this.ctx.service.objectCollect.index({
+      uid: uid,
+      typeId: 1,
+      objectId: 1
+    })
+    const collectList = await this.ctx.service.objectCollect.index({
+      uid: uid,
+      typeId: 1,
+      objectId: 1
+    })
+    const pointRet = await this.ctx.service.point.list(token);
+    let pointNum = 0;
+    if (pointRet.errCode == 0) {
+      const list = pointRet.data.list;
+      list.forEach(element => {
+        pointNum += element.value
+      })
+    }
+    return {
+      retCode: '0',
+      errCode: '0',
+      errMsg: '',
+      data: {
+        followNum: followListList.data.list.length,
+        likeNum: likeList.data.list.length,
+        collectNum: collectList.data.list.length,
+        pointNum
+      }
+    }
+  }
+
   // 获取用户介绍信息
   async getUserProfile ({ uid }) {
     let user = await this.app.mysql.get('user', { id: uid });

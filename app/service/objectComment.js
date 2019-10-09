@@ -68,7 +68,6 @@ class ObjectCommentService extends Service {
    * 增加评论
    */
   async create({ uid, itemId, content, talkTo, typeId = 1 }) {
-    console.log( uid, itemId, content, talkTo, typeId)
     if (+typeId === 2) {
       const result = await this.app.mysql.insert(CUR_TABLE_NAME, {
         uid,

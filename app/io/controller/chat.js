@@ -44,7 +44,6 @@ class ChatController extends Controller {
     const query = socket.handshake.query;
 
     const { target, payload } = message;
-    console.log(message);
 
     const uid = await service.user.getUserIdByToken(query.token);
     const ret = await service.chat.index({ uid });
