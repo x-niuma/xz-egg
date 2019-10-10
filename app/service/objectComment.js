@@ -36,13 +36,14 @@ class ObjectCommentService extends Service {
       // 获取子评论
       let ret = await this.app.mysql.select(CUR_TABLE_NAME, {
         where: {
-          talk_to: commentList.map(element => element.id),
-          type_id: 2
+          parent_id: commentList.map(element => element.id),
+          // talk_to: commentList.map(element => element.id),
+          // type_id: 2
         }
       });
       ret = JSON.parse(JSON.stringify(ret));
       commentList.forEach(element => {
-        element.children = ret.filter(child => child.talk_to == element.id)
+        element.children = ret.filter(child => child.parent_id == element.id)
         element.children.forEach(element => {
           userList.forEach(childElement => {
             if (element.uid === childElement.id) {
@@ -67,14 +68,15 @@ class ObjectCommentService extends Service {
   /**
    * 增加评论
    */
-  async create({ uid, itemId, content, talkTo, typeId = 1 }) {
+  async create({ uid, itemId, content, talkTo, parentId, typeId = 1 }) {
     if (+typeId === 2) {
       const result = await this.app.mysql.insert(CUR_TABLE_NAME, {
         uid,
         type_id: typeId,
         talk_to: talkTo,
         item_id: itemId,
-        content: content
+        content: content,
+        parent_id: parentId
       });
       const insertSuccess = result.affectedRows === 1;
       if (insertSuccess) {
@@ -89,7 +91,9 @@ class ObjectCommentService extends Service {
         uid,
         type_id: typeId,
         item_id: itemId,
-        content: content
+        content: content,
+        parent_id: parentId,
+        create_time: (new Date).toLocaleString()
       });
       const insertSuccess = result.affectedRows === 1;
       if (insertSuccess) {

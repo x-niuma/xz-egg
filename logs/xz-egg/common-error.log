@@ -216,3 +216,13 @@ pid: 4934
 hostname: bogon
 
 2019-10-09 15:31:18,969 ERROR 4934 [-/10.0.60.123/-/26ms GET /xzProduct/37?token=bed0bbb970cedc92de33e046f69f52a1] { retCode: '1', errCode: '1', errMsg: '该商品不存在' }
+2019-10-10 14:33:11,112 ERROR 1513 [egg-redis] client error: Error: read ECONNRESET
+2019-10-10 14:33:11,117 ERROR 1513 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 1513
+hostname: bogon
+

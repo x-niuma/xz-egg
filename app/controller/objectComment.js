@@ -27,7 +27,7 @@ class ObjectCommentController extends Controller {
    * 新增评论
    */
   async create() {
-    const { content, typeId, talkTo } = this.ctx.request.body;
+    const { content, typeId, talkTo, parentId } = this.ctx.request.body;
     const { token, itemId  } = this.ctx.request.query;
     const uid = await this.ctx.service.user.getUserIdByToken(token);
     this.ctx.body = await this.ctx.service.objectComment.create({
@@ -35,7 +35,8 @@ class ObjectCommentController extends Controller {
       itemId,
       content,
       talkTo,
-      typeId
+      typeId,
+      parentId
     });
   }
 

@@ -104,7 +104,6 @@ class UserService extends Service {
 
     const loginToken = createToken(password);
     let result = await this.app.redis.set(`${loginToken}`, user.id);
-    console.log('set redis login token: ' + result)
     if (result === 'OK') {
       delete user.password;
       return {
@@ -259,7 +258,7 @@ class UserService extends Service {
     })
     const likeList = await this.ctx.service.objectCollect.index({
       uid: uid,
-      typeId: 1,
+      typeId: 2,
       objectId: 1
     })
     const collectList = await this.ctx.service.objectCollect.index({
@@ -281,8 +280,8 @@ class UserService extends Service {
       errMsg: '',
       data: {
         followNum: followListList.data.list.length,
-        likeNum: likeList.data.list.length,
         collectNum: collectList.data.list.length,
+        likeNum: likeList.data.list.length,
         pointNum
       }
     }
