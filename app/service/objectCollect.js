@@ -34,7 +34,7 @@ class ObjectCollectService extends Service {
             try {
               objectElement.imgs = JSON.parse(objectElement.imgs);
             } catch (error) {
-              console.log(objectElement.imgs);
+              // console.log(objectElement.imgs);
             }
             collectElement.itemInfo = objectElement;
           }

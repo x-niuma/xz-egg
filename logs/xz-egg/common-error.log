@@ -226,3 +226,61 @@ name: "ECONNRESETError"
 pid: 1513
 hostname: bogon
 
+2019-10-13 08:45:04,150 ERROR 3901 nodejs.ClusterClientNoResponseError: client no response in 53131739ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/my_project/ynow-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 3901
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-10-13 21:20:50,467 ERROR 3901 nodejs.ClusterClientNoResponseError: client no response in 45326198ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/my_project/ynow-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 3901
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-10-13 21:34:30,706 ERROR 3902 [egg-redis] client error: Error: read ETIMEDOUT
+2019-10-13 21:34:30,708 ERROR 3902 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 3902
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-10-13 21:36:27,694 ERROR 3902 [-/::1/-/12ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-13 21:36:27,695 ERROR 3902 [-/::1/-/15ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-14 14:28:46,275 ERROR 833 [-/::1/-/12ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-14 14:28:46,276 ERROR 833 [-/::1/-/15ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-14 14:36:31,178 ERROR 833 [-/::1/-/22ms POST /user/login?token=42c891178213a01be0df5c51d73cd5ae] MyError { message: '登录密码不正确', errCode: '100004' }
+2019-10-14 14:47:09,278 ERROR 2378 [-/10.0.61.154/-/10ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-14 14:47:09,279 ERROR 2378 [-/10.0.61.154/-/14ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-15 14:54:50,889 ERROR 2599 [-/10.0.61.154/-/313ms POST /user/login?token=2cb6cbeb5e1b29c4dc3d4eefaca7a87e] MyError { message: '该手机号未注册', errCode: '100003' }
+2019-10-15 15:03:38,707 ERROR 2599 [-/10.0.61.154/-/203ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-15 15:03:38,708 ERROR 2599 [-/10.0.61.154/-/206ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-15 15:03:40,621 ERROR 2599 [-/10.0.61.154/-/12ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-15 15:03:40,622 ERROR 2599 [-/10.0.61.154/-/12ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-15 15:03:45,111 ERROR 2599 [-/10.0.61.154/-/11ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-15 15:03:45,121 ERROR 2599 [-/10.0.61.154/-/10ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-15 15:03:56,550 ERROR 2599 [-/10.0.61.154/-/10ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-15 15:03:56,551 ERROR 2599 [-/10.0.61.154/-/13ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-15 15:06:17,956 ERROR 2599 [-/10.0.61.154/-/656ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-15 15:06:17,956 ERROR 2599 [-/10.0.61.154/-/657ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-15 15:37:44,078 ERROR 2599 [egg-redis] client error: Error: read ECONNRESET
+2019-10-15 15:37:44,080 ERROR 2599 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 2599
+hostname: arraybufferdeMacBook-Pro.local
+
