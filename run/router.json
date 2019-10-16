@@ -304,6 +304,19 @@
       "HEAD",
       "GET"
     ],
+    "paramNames": [],
+    "path": "/xzProduct/search",
+    "regexp": "/^\\/xzProduct\\/search(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
     "paramNames": [
       {
         "name": "itemId",

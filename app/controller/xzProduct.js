@@ -91,6 +91,13 @@ class XzProductController extends Controller {
       uid
     });
   }
+
+  async search () {
+    const { keyword } = this.ctx.request.query;
+    this.ctx.body = await this.ctx.service.xzProduct.search({
+      keyword
+    })
+  }
 }
 
 module.exports = XzProductController;

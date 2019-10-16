@@ -41,6 +41,7 @@ module.exports = app => {
   // 闲置商品 -----------------------------------------------------------------------------------
   router.get('/xzProduct', controller.xzProduct.index)
   router.post('/xzProduct', controller.xzProduct.create)
+  router.get('/xzProduct/search', controller.xzProduct.search)
   router.get('/xzProduct/:itemId', controller.xzProduct.show)
   router.post('/xzProduct/:itemId', controller.xzProduct.update)
   router.get('/user/xzProduct', controller.xzProduct.getProductByUserId)

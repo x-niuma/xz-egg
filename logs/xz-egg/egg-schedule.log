@@ -493,3 +493,9 @@
 2019-10-15 14:33:09,055 INFO 2598 [Timer] /Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 50210949ms at 2019-10-16 04:30:00.004
 2019-10-15 14:33:09,055 INFO 2598 [Timer] /Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 34010945ms at 2019-10-16 00:00:00.000
 2019-10-15 14:33:09,055 INFO 2598 [Timer] /Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 34011945ms at 2019-10-16 00:00:01.000
+2019-10-16 09:23:32,078 INFO 6205 [egg-schedule]: register schedule /Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-10-16 09:23:32,078 INFO 6205 [egg-schedule]: register schedule /Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-10-16 09:23:32,078 INFO 6205 [egg-schedule]: register schedule /Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-10-16 09:23:32,395 INFO 6204 [Timer] /Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 68787609ms at 2019-10-17 04:30:00.004
+2019-10-16 09:23:32,395 INFO 6204 [Timer] /Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 52587605ms at 2019-10-17 00:00:00.000
+2019-10-16 09:23:32,396 INFO 6204 [Timer] /Users/arraybuffer/my_project/ynow-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 52588604ms at 2019-10-17 00:00:01.000

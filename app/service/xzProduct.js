@@ -183,6 +183,22 @@ class XzProductService extends Service {
       }
     }
   }
+
+  async search({ keyword }) {
+    let list = [];
+    if (keyword) {
+      let sql = `SELECT * FROM xz_product WHERE POSITION("${keyword}" IN title);`
+      list = await this.app.mysql.query(sql);
+    }
+    return {
+      errMsg: '',
+      errCode: 0,
+      retCode: 0,
+      data: {
+        list: list
+      }
+    }
+  }
 }
 
 module.exports = XzProductService;
