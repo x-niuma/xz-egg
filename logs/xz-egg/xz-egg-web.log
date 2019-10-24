@@ -1,86 +1,51 @@
-2019-10-03 22:52:23,075 ERROR 3665 [-/192.168.0.101/-/118ms GET /xzProduct/undefined?token=63ff36b8483c5f141cd08605e805274c] { retCode: '1', errCode: '1', errMsg: '该商品不存在' }
-2019-10-03 22:52:40,223 ERROR 3665 [-/192.168.0.101/-/140ms GET /xzProduct/undefined?token=63ff36b8483c5f141cd08605e805274c] { retCode: '1', errCode: '1', errMsg: '该商品不存在' }
-2019-10-03 22:52:45,411 ERROR 3665 [-/192.168.0.101/-/25ms GET /xzProduct/undefined?token=63ff36b8483c5f141cd08605e805274c] { retCode: '1', errCode: '1', errMsg: '该商品不存在' }
-2019-10-06 08:37:38,630 ERROR 1589 [-/192.168.0.101/-/16ms GET /user/totalInfo?token=63ff36b8483c5f141cd08605e805274c] nodejs.TypeError: Cannot read property 'userCollect' of undefined
-    at UserService.getUserTotalInfo (/Users/arraybuffer/my_project/ynow-egg/app/service/user.js:257:29)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 1589
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-10-07 21:31:08,272 ERROR 2782 [-/192.168.0.101/-/133ms GET /user/totalInfo?token=63ff36b8483c5f141cd08605e805274c] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:31:12,823 ERROR 2782 [-/192.168.0.101/-/157ms GET /user/totalInfo?token=63ff36b8483c5f141cd08605e805274c] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:31:14,331 ERROR 2782 [-/192.168.0.101/-/139ms GET /user/totalInfo?token=63ff36b8483c5f141cd08605e805274c] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:31:27,585 ERROR 2782 [-/192.168.0.101/-/13ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:31:27,586 ERROR 2782 [-/192.168.0.101/-/12ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:31:31,021 ERROR 2782 [-/192.168.0.101/-/35ms POST /checkin?token=beb59bc0a4a2079afcbbd74677e6c263] MyError { message: '请勿重复签到', errCode: '' }
-2019-10-07 21:31:33,304 ERROR 2782 [-/192.168.0.101/-/143ms GET /user/totalInfo?token=beb59bc0a4a2079afcbbd74677e6c263] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:31:39,899 ERROR 2782 [-/192.168.0.101/-/141ms GET /user/totalInfo?token=beb59bc0a4a2079afcbbd74677e6c263] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:32:05,552 ERROR 2782 [-/192.168.0.101/-/11ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:32:05,557 ERROR 2782 [-/192.168.0.101/-/11ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:32:09,129 ERROR 2782 [-/192.168.0.101/-/137ms GET /user/totalInfo?token=c58cfb75444f40fc4dd8d09415431c5b] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:32:19,779 ERROR 2782 [-/192.168.0.101/-/131ms GET /user/totalInfo?token=c58cfb75444f40fc4dd8d09415431c5b] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:32:22,426 ERROR 2782 [-/192.168.0.101/-/157ms GET /user/totalInfo?token=c58cfb75444f40fc4dd8d09415431c5b] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:32:27,408 ERROR 2782 [-/192.168.0.101/-/145ms GET /user/totalInfo?token=c58cfb75444f40fc4dd8d09415431c5b] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:32:43,647 ERROR 2782 [-/192.168.0.101/-/128ms GET /user/totalInfo?token=c58cfb75444f40fc4dd8d09415431c5b] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:32:44,488 ERROR 2782 [-/192.168.0.101/-/131ms GET /user/totalInfo?token=c58cfb75444f40fc4dd8d09415431c5b] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:32:53,947 ERROR 2782 [-/192.168.0.101/-/129ms GET /user/totalInfo?token=c58cfb75444f40fc4dd8d09415431c5b] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:32:55,660 ERROR 2782 [-/192.168.0.101/-/124ms GET /user/totalInfo?token=c58cfb75444f40fc4dd8d09415431c5b] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-07 21:33:11,712 ERROR 2782 [-/192.168.0.101/-/134ms GET /user/totalInfo?token=c58cfb75444f40fc4dd8d09415431c5b] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-08 15:26:00,418 WARN 2221 [-/::1/-/2ms POST /xzProduct?token=c58cfb75444f40fc4dd8d09415431c5b] nodejs.PayloadTooLargeError: request entity too large, check bodyParser config
-    at readStream (/Users/arraybuffer/my_project/ynow-egg/node_modules/_raw-body@2.4.1@raw-body/index.js:155:17)
-    at executor (/Users/arraybuffer/my_project/ynow-egg/node_modules/_raw-body@2.4.1@raw-body/index.js:112:5)
+2019-10-24 18:20:53,390 ERROR 35689 [-/::1/-/25ms DELETE /deliveryAddress/12?token=f2ef5eda8d8117a97e3b7168eb90fc29] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+    --------------------
+    at Pool.query (/Users/arraybuffer/my_project/xz-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/arraybuffer/my_project/xz-egg/node_modules/_pify@2.3.0@pify/index.js:29:7
     at new Promise (<anonymous>)
-    at getRawBody (/Users/arraybuffer/my_project/ynow-egg/node_modules/_raw-body@2.4.1@raw-body/index.js:111:10)
-    at AsyncFunction.module.exports [as form] (/Users/arraybuffer/my_project/ynow-egg/node_modules/_co-body@6.0.0@co-body/lib/form.js:40:21)
-    at parseBody (/Users/arraybuffer/my_project/ynow-egg/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:94:26)
-    at bodyParser (/Users/arraybuffer/my_project/ynow-egg/node_modules/_koa-bodyparser@4.2.1@koa-bodyparser/index.js:76:25)
-    at dispatch (/Users/arraybuffer/my_project/ynow-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
-    at dispatch (/Users/arraybuffer/my_project/ynow-egg/node_modules/_koa-compose@4.1.0@koa-compose/index.js:42:32)
-    at /Users/arraybuffer/my_project/ynow-egg/node_modules/_koa-static-cache@5.1.2@koa-static-cache/index.js:51:69
-message: "request entity too large, check bodyParser config"
-expected: 288565
-length: 288565
-limit: 102400
-type: "entity.too.large"
-headers: {"Access-Control-Allow-Origin":"*","vary":"Origin"}
-pid: 2221
+    at Pool.<anonymous> (/Users/arraybuffer/my_project/xz-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/arraybuffer/my_project/xz-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/arraybuffer/my_project/xz-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/arraybuffer/my_project/xz-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/arraybuffer/my_project/xz-egg/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/arraybuffer/my_project/xz-egg/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: DELETE FROM `shipping` WHERE `id` = '12' AND `uid` = '2'
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+fatal: true
+name: "ECONNRESETError"
+pid: 35689
 hostname: bogon
 
-2019-10-08 15:44:25,954 ERROR 2798 [-/::1/-/10ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-08 15:44:25,957 ERROR 2798 [-/::1/-/8ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 08:46:42,623 ERROR 4934 [-/10.0.60.123/-/12ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 08:46:42,623 ERROR 4934 [-/10.0.60.123/-/13ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 09:02:07,865 ERROR 4934 [-/10.0.60.123/-/8ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 09:02:07,866 ERROR 4934 [-/10.0.60.123/-/9ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 09:04:25,823 ERROR 4934 [-/10.0.60.123/-/9ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 09:04:25,825 ERROR 4934 [-/10.0.60.123/-/9ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 10:56:10,312 ERROR 4934 [-/10.0.60.123/-/11ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 10:56:10,312 ERROR 4934 [-/10.0.60.123/-/12ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 10:57:30,409 ERROR 4934 [-/10.0.60.123/-/14ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 10:57:30,434 ERROR 4934 [-/10.0.60.123/-/16ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 10:57:34,223 ERROR 4934 [-/10.0.60.123/-/11ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 10:57:34,229 ERROR 4934 [-/10.0.60.123/-/10ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 10:57:36,374 ERROR 4934 [-/10.0.60.123/-/30ms POST /checkin?token=456b7b7ec90e4ad6bc05861e9aca3dfd] MyError { message: '请勿重复签到', errCode: '' }
-2019-10-09 11:47:07,816 ERROR 4934 [-/10.0.60.123/-/9ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 11:47:07,819 ERROR 4934 [-/10.0.60.123/-/10ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-09 11:47:11,695 ERROR 4934 [-/10.0.60.123/-/30ms POST /checkin?token=bed0bbb970cedc92de33e046f69f52a1] MyError { message: '请勿重复签到', errCode: '' }
-2019-10-09 15:31:18,970 ERROR 4934 [-/10.0.60.123/-/26ms GET /xzProduct/37?token=bed0bbb970cedc92de33e046f69f52a1] { retCode: '1', errCode: '1', errMsg: '该商品不存在' }
-2019-10-13 21:36:27,694 ERROR 3902 [-/::1/-/12ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-13 21:36:27,695 ERROR 3902 [-/::1/-/15ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-14 14:28:46,275 ERROR 833 [-/::1/-/12ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-14 14:28:46,276 ERROR 833 [-/::1/-/15ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-14 14:36:31,178 ERROR 833 [-/::1/-/22ms POST /user/login?token=42c891178213a01be0df5c51d73cd5ae] MyError { message: '登录密码不正确', errCode: '100004' }
-2019-10-14 14:47:09,279 ERROR 2378 [-/10.0.61.154/-/10ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-14 14:47:09,280 ERROR 2378 [-/10.0.61.154/-/14ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-15 14:54:50,890 ERROR 2599 [-/10.0.61.154/-/313ms POST /user/login?token=2cb6cbeb5e1b29c4dc3d4eefaca7a87e] MyError { message: '该手机号未注册', errCode: '100003' }
-2019-10-15 15:03:38,707 ERROR 2599 [-/10.0.61.154/-/203ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-15 15:03:38,708 ERROR 2599 [-/10.0.61.154/-/206ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-15 15:03:40,621 ERROR 2599 [-/10.0.61.154/-/12ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-15 15:03:40,622 ERROR 2599 [-/10.0.61.154/-/12ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-15 15:03:45,111 ERROR 2599 [-/10.0.61.154/-/11ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-15 15:03:45,121 ERROR 2599 [-/10.0.61.154/-/10ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-15 15:03:56,551 ERROR 2599 [-/10.0.61.154/-/10ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-15 15:03:56,551 ERROR 2599 [-/10.0.61.154/-/13ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-15 15:06:17,956 ERROR 2599 [-/10.0.61.154/-/656ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-10-15 15:06:17,956 ERROR 2599 [-/10.0.61.154/-/657ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-10-24 21:52:43,974 ERROR 38259 [-/::1/-/19ms DELETE /deliveryAddress/14?token=f2ef5eda8d8117a97e3b7168eb90fc29] nodejs.ReferenceError: ctx is not defined
+    at DeliveryAddressController.remove (/Users/arraybuffer/my_project/xz-egg/app/controller/deliveryAddress.js:43:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 38259
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-10-24 21:52:48,806 ERROR 38259 [-/::1/-/13ms DELETE /deliveryAddress/14?token=f2ef5eda8d8117a97e3b7168eb90fc29] nodejs.ReferenceError: ctx is not defined
+    at DeliveryAddressController.remove (/Users/arraybuffer/my_project/xz-egg/app/controller/deliveryAddress.js:43:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 38259
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-10-24 21:54:24,778 ERROR 38288 [-/::1/-/4ms POST /deliveryAddress?token=f2ef5eda8d8117a97e3b7168eb90fc29] nodejs.ReferenceError: ctx is not defined
+    at DeliveryAddressController.add (/Users/arraybuffer/my_project/xz-egg/app/controller/deliveryAddress.js:13:23)
+    at Object.callFn (/Users/arraybuffer/my_project/xz-egg/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/arraybuffer/my_project/xz-egg/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/arraybuffer/my_project/xz-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/arraybuffer/my_project/xz-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/arraybuffer/my_project/xz-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/arraybuffer/my_project/xz-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/arraybuffer/my_project/xz-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/arraybuffer/my_project/xz-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/arraybuffer/my_project/xz-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 38288
+hostname: arraybufferdeMacBook-Pro.local
+

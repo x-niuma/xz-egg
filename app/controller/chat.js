@@ -3,10 +3,14 @@
 const Controller = require('egg').Controller;
 
 /**
- * @documention: 聊天
+ * @documention 聊天
  * @author Gaollard
  */
 class CheckinController extends Controller {
+
+  /**
+   * @description: 获取聊天列表
+   */
   async index() {
     const { ctx } = this;
     const { token } = ctx.request.query;

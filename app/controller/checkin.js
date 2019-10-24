@@ -2,11 +2,18 @@
 
 const Controller = require('egg').Controller;
 
+/**
+ * @documention 聊天
+ * @author Gaollard
+ */
 class CheckinController extends Controller {
+
+  /**
+   * @description: 签到
+   */
   async checkin() {
     const { ctx } = this;
     const { token } = ctx.request.query;
-
     this.ctx.body = await this.ctx.service.checkin.checkin(token);
   }
 

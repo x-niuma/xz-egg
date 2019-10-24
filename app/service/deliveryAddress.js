@@ -11,7 +11,7 @@ function MyError({ errMsg, errCode }) {
 class DeliveryAddressService extends Service {
   // 添加地址
   async add({ uid, mobile, username, address, city, province, district, zip }) {
-    const ret = await this.app.mysql.insert('delivery_address', {
+    const ret = await this.app.mysql.insert('shipping', {
       mobile, username, address, city, province, district, zip, uid
     });
     const insertSuccess = ret.affectedRows === 1;
@@ -32,7 +32,7 @@ class DeliveryAddressService extends Service {
 
   // 删除地址
   async remove({ id, uid }) {
-    const ret = await this.app.mysql.delete('delivery_address', {
+    const ret = await this.app.mysql.delete('shipping', {
       id,
       uid
     });
@@ -58,8 +58,7 @@ class DeliveryAddressService extends Service {
   }
 
   async list(token) {
-    const { ctx, app } = this;
-    const userId = ctx.service.user.getUserIdByToken(token);
+    const userId = await this.ctx.service.user.getUserIdByToken(token);
     if (!userId) {
       throw new MyError({
         retCode: '1',
@@ -67,14 +66,17 @@ class DeliveryAddressService extends Service {
         errMsg: '登录失效',
       });
     }
-
-    const list = await app.mysql.select('delivery_address', { uid: userId });
-
+    const list = await this.app.mysql.select('shipping', {
+      where: {
+        uid: userId
+      }
+    });
     return {
       retCode: '0',
       errCode: '0',
       errMsg: 'success',
       data: {
+        userId,
         list: JSON.parse(JSON.stringify(list)),
       },
     };
