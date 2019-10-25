@@ -1,0 +1,161 @@
+2019-10-24 14:19:03,499 ERROR 35684 nodejs.ClusterClientNoResponseError: client no response in 97536ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/my_project/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35684
+hostname: bogon
+
+2019-10-24 14:25:44,609 ERROR 35684 nodejs.ClusterClientNoResponseError: client no response in 341085ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/my_project/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35684
+hostname: bogon
+
+2019-10-24 15:45:04,209 ERROR 35684 nodejs.ClusterClientNoResponseError: client no response in 2819115ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/my_project/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35684
+hostname: bogon
+
+2019-10-24 16:12:11,955 ERROR 35689 [egg-redis] client error: Error: read ECONNRESET
+2019-10-24 16:12:11,956 ERROR 35689 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 35689
+hostname: bogon
+
+2019-10-24 16:40:05,420 ERROR 35689 [egg-redis] client error: Error: read ECONNRESET
+2019-10-24 16:40:05,420 ERROR 35689 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 35689
+hostname: bogon
+
+2019-10-24 18:20:53,390 ERROR 35689 [-/::1/-/25ms DELETE /deliveryAddress/12?token=f2ef5eda8d8117a97e3b7168eb90fc29] nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+    --------------------
+    at Pool.query (/Users/arraybuffer/my_project/xz-egg/node_modules/_mysql@2.17.1@mysql/lib/Pool.js:199:23)
+    at /Users/arraybuffer/my_project/xz-egg/node_modules/_pify@2.3.0@pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/arraybuffer/my_project/xz-egg/node_modules/_pify@2.3.0@pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/arraybuffer/my_project/xz-egg/node_modules/_pify@2.3.0@pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/arraybuffer/my_project/xz-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/arraybuffer/my_project/xz-egg/node_modules/_ali-rds@3.3.0@ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/arraybuffer/my_project/xz-egg/node_modules/_co@4.6.0@co/index.js:65:19)
+    at /Users/arraybuffer/my_project/xz-egg/node_modules/_co@4.6.0@co/index.js:54:5
+    sql: DELETE FROM `shipping` WHERE `id` = '12' AND `uid` = '2'
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+fatal: true
+name: "ECONNRESETError"
+pid: 35689
+hostname: bogon
+
+2019-10-24 18:45:32,985 ERROR 35684 nodejs.ClusterClientNoResponseError: client no response in 967040ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/my_project/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35684
+hostname: bogon
+
+2019-10-24 21:12:29,683 ERROR 35684 nodejs.ClusterClientNoResponseError: client no response in 8196452ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/my_project/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 35684
+hostname: bogon
+
+2019-10-24 21:20:09,707 ERROR 35689 [egg-redis] client error: Error: read ETIMEDOUT
+2019-10-24 21:20:09,707 ERROR 35689 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 35689
+hostname: bogon
+
+2019-10-24 21:52:43,974 ERROR 38259 [-/::1/-/19ms DELETE /deliveryAddress/14?token=f2ef5eda8d8117a97e3b7168eb90fc29] nodejs.ReferenceError: ctx is not defined
+    at DeliveryAddressController.remove (/Users/arraybuffer/my_project/xz-egg/app/controller/deliveryAddress.js:43:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 38259
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-10-24 21:52:48,806 ERROR 38259 [-/::1/-/13ms DELETE /deliveryAddress/14?token=f2ef5eda8d8117a97e3b7168eb90fc29] nodejs.ReferenceError: ctx is not defined
+    at DeliveryAddressController.remove (/Users/arraybuffer/my_project/xz-egg/app/controller/deliveryAddress.js:43:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 38259
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-10-24 21:54:24,777 ERROR 38288 [-/::1/-/4ms POST /deliveryAddress?token=f2ef5eda8d8117a97e3b7168eb90fc29] nodejs.ReferenceError: ctx is not defined
+    at DeliveryAddressController.add (/Users/arraybuffer/my_project/xz-egg/app/controller/deliveryAddress.js:13:23)
+    at Object.callFn (/Users/arraybuffer/my_project/xz-egg/node_modules/_egg-core@4.17.3@egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/arraybuffer/my_project/xz-egg/node_modules/_egg-core@4.17.3@egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/arraybuffer/my_project/xz-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/arraybuffer/my_project/xz-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/arraybuffer/my_project/xz-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at next (/Users/arraybuffer/my_project/xz-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:45:18)
+    at /Users/arraybuffer/my_project/xz-egg/node_modules/_@eggjs_router@2.0.0@@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/arraybuffer/my_project/xz-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:44:32)
+    at /Users/arraybuffer/my_project/xz-egg/node_modules/_koa-compose@3.2.1@koa-compose/index.js:36:12
+
+pid: 38288
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-10-25 07:20:17,006 ERROR 37921 nodejs.ClusterClientNoResponseError: client no response in 28810367ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/my_project/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37921
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-10-25 08:53:13,980 ERROR 37921 nodejs.ClusterClientNoResponseError: client no response in 5576965ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/my_project/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 37921
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-10-25 08:55:04,074 ERROR 39097 [egg-redis] client error: Error: read ETIMEDOUT
+2019-10-25 08:55:04,075 ERROR 39097 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 39097
+hostname: arraybufferdeMacBook-Pro.local
+

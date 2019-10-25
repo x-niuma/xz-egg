@@ -1,32 +1,31 @@
-'use strict';
-
-const Controller = require('egg').Controller;
-
 /**
- * @documention 聊天
+ * @documention 签到
  * @author Gaollard
  */
+'use strict';
+const Controller = require('egg').Controller;
 class CheckinController extends Controller {
-
   /**
-   * @description: 签到
+   * @description 签到
    */
   async checkin() {
-    const { ctx } = this;
-    const { token } = ctx.request.query;
+    const { token } = this.ctx.request.query;
     this.ctx.body = await this.ctx.service.checkin.checkin(token);
   }
 
+  /**
+   * @description 查询签到状态
+   */
   async checkinStatus() {
-    const { ctx } = this;
-    const { token } = ctx.request.query;
+    const { token } = this.ctx.request.query;
     this.ctx.body = await this.ctx.service.checkin.checkinStatus(token);
   }
 
+  /**
+   * @description 查询签到流水
+   */
   async list() {
-    const { ctx } = this;
-    const { token } = ctx.request.query;
-
+    const { token } = this.ctx.request.query;
     this.ctx.body = await this.ctx.service.checkin.list(token);
   }
 }

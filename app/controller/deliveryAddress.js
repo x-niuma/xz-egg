@@ -19,6 +19,9 @@ class DeliveryAddressController extends Controller {
       district,
       address,
       zip,
+      provinceCode,
+      cityCode,
+      districtCode
     } = this.ctx.request.body;
     const uid = await this.ctx.service.user.getUserIdByToken(token);
     this.ctx.body = await this.ctx.service.deliveryAddress.add({
@@ -30,6 +33,9 @@ class DeliveryAddressController extends Controller {
       address,
       zip,
       uid,
+      provinceCode,
+      cityCode,
+      districtCode
     });
   }
 
@@ -52,11 +58,26 @@ class DeliveryAddressController extends Controller {
   async update() {
     const { ctx } = this;
     const { token } = ctx.request.query;
-
-    const { id } = ctx.request.body;
-    const { username, mobile, province, city, district, address, zip } = ctx.request.body;
-    ctx.body = await ctx.service.deliveryAddress.update(token, id, {
+    const { id } = ctx.params;
+    const {
+      username,
+      mobile,
+      province,
+      city,
+      district,
+      address,
+      zip,
+      provinceCode,
+      cityCode,
+      districtCode
+    } = ctx.request.body;
+    ctx.body = await ctx.service.deliveryAddress.update({
+      token,
       username, mobile, province, city, district, address, zip,
+      provinceCode,
+      cityCode,
+      districtCode,
+      id
     });
   }
 

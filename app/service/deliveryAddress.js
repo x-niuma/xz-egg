@@ -10,9 +10,24 @@ function MyError({ errMsg, errCode }) {
 
 class DeliveryAddressService extends Service {
   // 添加地址
-  async add({ uid, mobile, username, address, city, province, district, zip }) {
+  async add({
+    uid, 
+    mobile, 
+    username, 
+    address, 
+    city,
+    province, 
+    district,
+    zip,
+    provinceCode,
+    cityCode,
+    districtCode
+  }) {
     const ret = await this.app.mysql.insert('shipping', {
-      mobile, username, address, city, province, district, zip, uid
+      mobile, username, address, city, province, district, zip, uid,
+      province_code: provinceCode,
+      city_code: cityCode,
+      district_code: districtCode
     });
     const insertSuccess = ret.affectedRows === 1;
     if (insertSuccess) {
@@ -24,6 +39,57 @@ class DeliveryAddressService extends Service {
     } else {
       return {
         errMsg: '添加失败',
+        errCode: '1',
+        retCode: '1'
+      }
+    }
+  }
+
+  // 更新地址
+  async update({
+    token,
+    id,
+    mobile, 
+    username, 
+    address, 
+    city,
+    province, 
+    district,
+    zip,
+    provinceCode,
+    cityCode,
+    districtCode
+  }) {
+    const uid = await this.ctx.service.user.getUserIdByToken(token);
+    const row = {
+      mobile,
+      username, 
+      address, 
+      city,
+      province,
+      district, 
+      zip,
+      province_code: provinceCode,
+      city_code: cityCode,
+      district_code: districtCode
+    }
+    const options = {
+      where: {
+        id,
+        uid
+      }
+    }
+    const ret = await this.app.mysql.update('shipping', row, options);
+    const insertSuccess = ret.affectedRows === 1;
+    if (insertSuccess) {
+      return {
+        errMsg: '',
+        errCode: '0',
+        retCode: '0'
+      }
+    } else {
+      return {
+        errMsg: '更新地址失败',
         errCode: '1',
         retCode: '1'
       }
@@ -50,11 +116,6 @@ class DeliveryAddressService extends Service {
         retCode: '1'
       }
     }
-  }
-
-  // 更新地址
-  async update() {
-    return 'update';
   }
 
   async list(token) {

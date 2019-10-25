@@ -32,6 +32,7 @@ module.exports = app => {
   // 地址管理 -----------------------------------------------------------------------------------
   router.get('/deliveryAddress', controller.deliveryAddress.list)
   router.post('/deliveryAddress', controller.deliveryAddress.add)
+  router.post('/deliveryAddress/:id', controller.deliveryAddress.update)
   router.delete('/deliveryAddress/:id', controller.deliveryAddress.remove)
   router.get('/sfCity', controller.deliveryAddress.getSfCityList)
 
