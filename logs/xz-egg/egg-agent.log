@@ -42,3 +42,127 @@
 2019-10-25 09:59:25,354 INFO 37921 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/arraybuffer/my_project/xz-egg/app/controller/chat.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8610617493,"size":650,"blocks":8,"atimeMs":1571968765343.4895,"mtimeMs":1571968765344.092,"ctimeMs":1571968765344.092,"birthtimeMs":1569081075980.1897,"atime":"2019-10-25T01:59:25.343Z","mtime":"2019-10-25T01:59:25.344Z","ctime":"2019-10-25T01:59:25.344Z","birthtime":"2019-09-21T15:51:15.980Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-10-25 09:59:30,856 INFO 37921 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/arraybuffer/my_project/xz-egg/app/controller/chat.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8610617493,"size":650,"blocks":8,"atimeMs":1571968770845.0461,"mtimeMs":1571968770845.5757,"ctimeMs":1571968770845.5757,"birthtimeMs":1569081075980.1897,"atime":"2019-10-25T01:59:30.845Z","mtime":"2019-10-25T01:59:30.846Z","ctime":"2019-10-25T01:59:30.846Z","birthtime":"2019-09-21T15:51:15.980Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-10-25 09:59:31,061 WARN 37921 [agent:development] reload worker because /Users/arraybuffer/my_project/xz-egg/app/controller/chat.js change
+2019-11-30 10:52:54,081 INFO 6944 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-11-30 10:52:54,099 INFO 6944 [egg:core] dump config after load, 5ms
+2019-11-30 10:52:54,148 INFO 6944 [egg-watcher] Start watching: ["/Users/arraybuffer/code/my-app/xz-egg/app","/Users/arraybuffer/code/my-app/xz-egg/config","/Users/arraybuffer/code/my-app/xz-egg/mocks","/Users/arraybuffer/code/my-app/xz-egg/mocks_proxy","/Users/arraybuffer/code/my-app/xz-egg/app.js"]
+2019-11-30 10:52:54,148 INFO 6944 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/app"
+2019-11-30 10:52:54,148 INFO 6944 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/config"
+2019-11-30 10:52:54,148 INFO 6944 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/mocks"
+2019-11-30 10:52:54,148 INFO 6944 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/mocks_proxy"
+2019-11-30 10:52:54,148 INFO 6944 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/app.js"
+2019-11-30 10:52:54,149 INFO 6944 [egg-watcher:agent] watcher start success
+2019-11-30 10:52:54,221 INFO 6944 [egg:core] dump config after ready, 5ms
+2019-11-30 11:03:15,399 WARN 6944 [agent:development] reload worker because /Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js change
+2019-11-30 11:03:15,191 INFO 6944 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8610820001,"size":835,"blocks":8,"atimeMs":1575082892606.8286,"mtimeMs":1575082995077.9575,"ctimeMs":1575082995077.9575,"birthtimeMs":1570067391612.4165,"atime":"2019-11-30T03:01:32.607Z","mtime":"2019-11-30T03:03:15.078Z","ctime":"2019-11-30T03:03:15.078Z","birthtime":"2019-10-03T01:49:51.612Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-30 11:03:16,696 WARN 6944 [agent:development] reload worker because /Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js change
+2019-11-30 11:03:16,495 INFO 6944 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8610820001,"size":835,"blocks":8,"atimeMs":1575082996300.0342,"mtimeMs":1575082996484.8552,"ctimeMs":1575082996484.8552,"birthtimeMs":1570067391612.4165,"atime":"2019-11-30T03:03:16.300Z","mtime":"2019-11-30T03:03:16.485Z","ctime":"2019-11-30T03:03:16.485Z","birthtime":"2019-10-03T01:49:51.612Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-30 13:59:29,983 ERROR 6944 nodejs.ClusterClientNoResponseError: client no response in 7070820ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 6944
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-11-30 14:54:49,144 WARN 6944 [agent:development] reload worker because /Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js change
+2019-11-30 14:54:48,941 INFO 6944 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8610820001,"size":868,"blocks":8,"atimeMs":1575082996300.0342,"mtimeMs":1575096888861.783,"ctimeMs":1575096888861.783,"birthtimeMs":1570067391612.4165,"atime":"2019-11-30T03:03:16.300Z","mtime":"2019-11-30T06:54:48.862Z","ctime":"2019-11-30T06:54:48.862Z","birthtime":"2019-10-03T01:49:51.612Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-30 14:55:03,422 INFO 6944 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8610820001,"size":886,"blocks":8,"atimeMs":1575096903309.087,"mtimeMs":1575096903309.4263,"ctimeMs":1575096903309.4263,"birthtimeMs":1570067391612.4165,"atime":"2019-11-30T06:55:03.309Z","mtime":"2019-11-30T06:55:03.309Z","ctime":"2019-11-30T06:55:03.309Z","birthtime":"2019-10-03T01:49:51.612Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-30 14:55:03,624 WARN 6944 [agent:development] reload worker because /Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js change
+2019-11-30 14:56:08,419 WARN 6944 [agent:development] reload worker because /Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js change
+2019-11-30 14:56:08,215 INFO 6944 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8610820001,"size":886,"blocks":8,"atimeMs":1575096909725.77,"mtimeMs":1575096968153.7896,"ctimeMs":1575096968153.7896,"birthtimeMs":1570067391612.4165,"atime":"2019-11-30T06:55:09.726Z","mtime":"2019-11-30T06:56:08.154Z","ctime":"2019-11-30T06:56:08.154Z","birthtime":"2019-10-03T01:49:51.612Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-30 14:56:21,549 INFO 6944 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8610820001,"size":894,"blocks":8,"atimeMs":1575096974370.6301,"mtimeMs":1575096981537.5938,"ctimeMs":1575096981537.5938,"birthtimeMs":1570067391612.4165,"atime":"2019-11-30T06:56:14.371Z","mtime":"2019-11-30T06:56:21.538Z","ctime":"2019-11-30T06:56:21.538Z","birthtime":"2019-10-03T01:49:51.612Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-30 14:56:21,754 WARN 6944 [agent:development] reload worker because /Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js change
+2019-11-30 14:57:34,817 WARN 6944 [agent:development] reload worker because /Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js change
+2019-11-30 14:57:34,614 INFO 6944 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"/Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":8610820001,"size":1034,"blocks":8,"atimeMs":1575096988878.237,"mtimeMs":1575097054502.872,"ctimeMs":1575097054502.872,"birthtimeMs":1570067391612.4165,"atime":"2019-11-30T06:56:28.878Z","mtime":"2019-11-30T06:57:34.503Z","ctime":"2019-11-30T06:57:34.503Z","birthtime":"2019-10-03T01:49:51.612Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-11-30 18:51:57,554 ERROR 6944 nodejs.ClusterClientNoResponseError: client no response in 4379051ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 6944
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-11-30 18:56:22,622 INFO 8631 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-11-30 18:56:22,634 INFO 8631 [egg:core] dump config after load, 4ms
+2019-11-30 18:56:22,686 INFO 8631 [egg-watcher] Start watching: ["/Users/arraybuffer/code/my-app/xz-egg/app","/Users/arraybuffer/code/my-app/xz-egg/config","/Users/arraybuffer/code/my-app/xz-egg/mocks","/Users/arraybuffer/code/my-app/xz-egg/mocks_proxy","/Users/arraybuffer/code/my-app/xz-egg/app.js"]
+2019-11-30 18:56:22,686 INFO 8631 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/app"
+2019-11-30 18:56:22,686 INFO 8631 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/config"
+2019-11-30 18:56:22,687 INFO 8631 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/mocks"
+2019-11-30 18:56:22,687 INFO 8631 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/mocks_proxy"
+2019-11-30 18:56:22,687 INFO 8631 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/app.js"
+2019-11-30 18:56:22,687 INFO 8631 [egg-watcher:agent] watcher start success
+2019-11-30 18:56:22,710 INFO 8631 [egg:core] dump config after ready, 4ms
+2019-11-30 21:45:04,634 INFO 9005 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-11-30 21:45:04,645 INFO 9005 [egg:core] dump config after load, 4ms
+2019-11-30 21:45:04,686 INFO 9005 [egg-watcher] Start watching: ["/Users/arraybuffer/code/my-app/xz-egg/app","/Users/arraybuffer/code/my-app/xz-egg/config","/Users/arraybuffer/code/my-app/xz-egg/mocks","/Users/arraybuffer/code/my-app/xz-egg/mocks_proxy","/Users/arraybuffer/code/my-app/xz-egg/app.js"]
+2019-11-30 21:45:04,686 INFO 9005 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/app"
+2019-11-30 21:45:04,687 INFO 9005 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/config"
+2019-11-30 21:45:04,687 INFO 9005 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/mocks"
+2019-11-30 21:45:04,687 INFO 9005 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/mocks_proxy"
+2019-11-30 21:45:04,687 INFO 9005 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/app.js"
+2019-11-30 21:45:04,687 INFO 9005 [egg-watcher:agent] watcher start success
+2019-11-30 21:45:04,707 INFO 9005 [egg:core] dump config after ready, 4ms
+2019-12-01 13:11:10,394 INFO 773 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-01 13:11:10,407 INFO 773 [egg:core] dump config after load, 6ms
+2019-12-01 13:11:10,456 INFO 773 [egg-watcher] Start watching: ["/Users/arraybuffer/code/my-app/xz-egg/app","/Users/arraybuffer/code/my-app/xz-egg/config","/Users/arraybuffer/code/my-app/xz-egg/mocks","/Users/arraybuffer/code/my-app/xz-egg/mocks_proxy","/Users/arraybuffer/code/my-app/xz-egg/app.js"]
+2019-12-01 13:11:10,456 INFO 773 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/app"
+2019-12-01 13:11:10,457 INFO 773 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/config"
+2019-12-01 13:11:10,457 INFO 773 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/mocks"
+2019-12-01 13:11:10,457 INFO 773 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/mocks_proxy"
+2019-12-01 13:11:10,457 INFO 773 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/app.js"
+2019-12-01 13:11:10,457 INFO 773 [egg-watcher:agent] watcher start success
+2019-12-01 13:11:10,476 INFO 773 [egg:core] dump config after ready, 5ms
+2019-12-01 15:37:39,019 ERROR 773 nodejs.ClusterClientNoResponseError: client no response in 84851ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 773
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-01 16:22:51,046 ERROR 773 nodejs.ClusterClientNoResponseError: client no response in 2672013ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 773
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-01 18:23:48,500 ERROR 773 nodejs.ClusterClientNoResponseError: client no response in 7217429ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 773
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-01 18:44:51,002 ERROR 773 nodejs.ClusterClientNoResponseError: client no response in 1242475ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 773
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-01 18:55:05,010 INFO 951 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-12-01 18:55:05,023 INFO 951 [egg:core] dump config after load, 6ms
+2019-12-01 18:55:05,057 INFO 951 [egg-watcher] Start watching: ["/Users/arraybuffer/code/my-app/xz-egg/app","/Users/arraybuffer/code/my-app/xz-egg/config","/Users/arraybuffer/code/my-app/xz-egg/mocks","/Users/arraybuffer/code/my-app/xz-egg/mocks_proxy","/Users/arraybuffer/code/my-app/xz-egg/app.js"]
+2019-12-01 18:55:05,057 INFO 951 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/app"
+2019-12-01 18:55:05,058 INFO 951 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/config"
+2019-12-01 18:55:05,058 INFO 951 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/mocks"
+2019-12-01 18:55:05,058 INFO 951 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/mocks_proxy"
+2019-12-01 18:55:05,058 INFO 951 [egg-watcher] Start watching: "/Users/arraybuffer/code/my-app/xz-egg/app.js"
+2019-12-01 18:55:05,058 INFO 951 [egg-watcher:agent] watcher start success
+2019-12-01 18:55:05,077 INFO 951 [egg:core] dump config after ready, 5ms

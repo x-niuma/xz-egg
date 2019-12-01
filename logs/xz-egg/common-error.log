@@ -1,0 +1,130 @@
+2019-11-30 13:59:29,983 ERROR 6944 nodejs.ClusterClientNoResponseError: client no response in 7070820ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 6944
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-11-30 15:02:32,096 ERROR 8275 [egg-redis] client error: Error: read ETIMEDOUT
+2019-11-30 15:02:32,097 ERROR 8275 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 8275
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-11-30 17:12:58,878 ERROR 8275 [egg-redis] client error: Error: read ETIMEDOUT
+2019-11-30 17:12:58,878 ERROR 8275 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 8275
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-11-30 18:51:57,554 ERROR 6944 nodejs.ClusterClientNoResponseError: client no response in 4379051ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 6944
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-11-30 21:06:45,815 ERROR 8632 [egg-redis] client error: Error: read ETIMEDOUT
+2019-11-30 21:06:45,817 ERROR 8632 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 8632
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-11-30 22:03:12,970 ERROR 9006 [egg-redis] client error: Error: read ETIMEDOUT
+2019-11-30 22:03:12,972 ERROR 9006 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 9006
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-11-30 22:31:15,665 ERROR 9006 [egg-redis] client error: Error: read ETIMEDOUT
+2019-11-30 22:31:15,666 ERROR 9006 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 9006
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-01 15:11:58,426 ERROR 774 [egg-redis] client error: Error: read ECONNRESET
+2019-12-01 15:11:58,428 ERROR 774 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 774
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-01 15:37:39,017 ERROR 773 nodejs.ClusterClientNoResponseError: client no response in 84851ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 773
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-01 16:22:51,046 ERROR 773 nodejs.ClusterClientNoResponseError: client no response in 2672013ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 773
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-01 18:23:48,500 ERROR 773 nodejs.ClusterClientNoResponseError: client no response in 7217429ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 773
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-01 18:44:51,002 ERROR 773 nodejs.ClusterClientNoResponseError: client no response in 1242475ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 773
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-01 18:45:24,668 ERROR 774 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-01 18:45:24,668 ERROR 774 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 774
+hostname: arraybufferdeMacBook-Pro.local
+

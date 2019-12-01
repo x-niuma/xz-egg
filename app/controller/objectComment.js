@@ -5,9 +5,9 @@ const Controller = require('egg').Controller;
  * 1. 增加评论
  * 2. 查询评论
  * 3. 删除评论
- * 4. typeId = 1 表示对商品进行评论
- *    typeId = 2 表示对评论进行评论
- *    typeId = 3 表示对需求进行评论
+ * 4.
+ *    typeId = 1 表示对商品进行评论 此时 itemId 为商品ID
+ *    typeId = 2 表示对评论进行评论 此时 itemId 为评论ID
  */
 
 class ObjectCommentController extends Controller {
