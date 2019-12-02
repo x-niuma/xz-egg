@@ -5,28 +5,29 @@
 const Service = require('egg').Service;
 
 class XzProductService extends Service {
-
   /**
    * 查询闲置商品
    * @param uid 用户ID
    * @param categoryId 类目ID
    */
-  async index({ uid, categoryId }) {
-    let list
-    let options = {}
-    if (uid) {
-      options.uid = uid
-    }
-    if (categoryId) {
-      options.category_id = categoryId
-    }
+  async index({ uid, categoryId, pageIndex = 0, pageSize = 10 }) {
+    let options = {};
+    if (uid) options.uid = uid;
+    if (categoryId) options.category_id = categoryId;
 
-    list = await this.app.mysql.select('xz_product', {
+    const sql = `SELECT COUNT(*) FROM xz_product`;
+    const data = await this.app.mysql.query(sql);
+
+    let totalList = await this.app.mysql.select('xz_product', {
       where: options
     });
     
-    list = JSON.parse(JSON.stringify(list));
-
+    let list = await this.app.mysql.select('xz_product', {
+      where: options,
+      limit: +pageSize,
+      offset: +pageIndex * +pageSize
+    });
+    
     list.forEach(element => {
       if (element.imgs) {
         element.imgs = JSON.parse(element.imgs);
@@ -59,7 +60,12 @@ class XzProductService extends Service {
       errCode: '0',
       errMsg: '',
       data: {
-        list
+        list,
+        pageInfo: {
+          pageIndex,
+          pageSize,
+          total: totalList.length
+        }
       }
     };
   }

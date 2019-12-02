@@ -8,9 +8,16 @@ class XzProductController extends Controller {
 
   // 所有用户的商品
   async index() {
-    const { categoryId } = this.ctx.request.query;
+    const {
+      categoryId,
+      pageIndex,
+      pageSize 
+    } = this.ctx.request.query;
+
     this.ctx.body = await this.ctx.service.xzProduct.index({
-      categoryId
+      categoryId,
+      pageIndex,
+      pageSize
     });
   }
 

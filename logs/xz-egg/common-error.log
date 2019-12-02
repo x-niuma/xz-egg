@@ -128,3 +128,23 @@ name: "ETIMEDOUTError"
 pid: 774
 hostname: arraybufferdeMacBook-Pro.local
 
+2019-12-02 22:05:32,689 ERROR 18710 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-02 22:05:32,691 ERROR 18710 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 18710
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-02 22:09:58,564 ERROR 18710 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-02 22:09:58,564 ERROR 18710 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 18710
+hostname: arraybufferdeMacBook-Pro.local
+
