@@ -223,3 +223,36 @@
 2019-12-02 21:56:57,458 INFO 18710 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
 2019-12-02 21:56:57,458 INFO 18710 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
 2019-12-02 21:56:57,458 INFO 18710 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 09:31:10,819 INFO 752 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 09:31:10,819 INFO 752 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-12-05 09:31:10,819 INFO 752 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 09:31:11,441 INFO 751 [Timer] /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 68328562ms at 2019-12-06 04:30:00.003
+2019-12-05 09:31:11,441 INFO 751 [Timer] /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 52128559ms at 2019-12-06 00:00:00.000
+2019-12-05 09:31:11,442 INFO 751 [Timer] /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 52129558ms at 2019-12-06 00:00:01.000
+2019-12-05 09:34:22,273 INFO 811 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 09:34:22,273 INFO 811 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-12-05 09:34:22,273 INFO 811 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 09:35:47,364 INFO 836 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 09:35:47,364 INFO 836 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-12-05 09:35:47,364 INFO 836 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 09:36:30,363 INFO 858 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 09:36:30,363 INFO 858 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-12-05 09:36:30,363 INFO 858 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 09:38:59,323 INFO 890 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 09:38:59,323 INFO 890 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-12-05 09:38:59,323 INFO 890 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 09:39:39,324 INFO 906 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 09:39:39,324 INFO 906 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-12-05 09:39:39,324 INFO 906 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 09:39:46,295 INFO 920 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 09:39:46,295 INFO 920 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-12-05 09:39:46,295 INFO 920 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:16:19,948 INFO 9764 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:16:19,948 INFO 9764 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:16:19,948 INFO 9764 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2019-12-05 14:16:20,414 INFO 9763 [Timer] /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 51219591ms at 2019-12-06 04:30:00.005
+2019-12-05 14:16:20,415 INFO 9763 [Timer] /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 35019586ms at 2019-12-06 00:00:00.001
+2019-12-05 14:16:20,415 INFO 9763 [Timer] /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 35020585ms at 2019-12-06 00:00:01.000
+2019-12-05 14:23:23,918 INFO 10060 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-multipart@2.9.0@egg-multipart/app/schedule/clean_tmpdir.js
+2019-12-05 14:23:23,918 INFO 10060 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2019-12-05 14:23:23,918 INFO 10060 [egg-schedule]: register schedule /Users/arraybuffer/code/my-app/xz-egg/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js

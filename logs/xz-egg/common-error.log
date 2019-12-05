@@ -148,3 +148,67 @@ name: "ETIMEDOUTError"
 pid: 18710
 hostname: arraybufferdeMacBook-Pro.local
 
+2019-12-05 09:31:30,413 ERROR 752 [-/::1/-/26ms GET /xzCategory] nodejs.TypeError: Cannot read property 'children' of undefined
+    at list.forEach.element (/Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js:25:38)
+    at Array.forEach (<anonymous>)
+    at XzCategoryService.index (/Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js:22:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 752
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-05 10:44:36,033 ERROR 920 [egg-redis] client error: Error: read ECONNRESET
+2019-12-05 10:44:36,034 ERROR 920 nodejs.ECONNRESETError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 920
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-05 13:02:44,915 ERROR 920 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-05 13:02:44,916 ERROR 920 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 920
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-05 14:50:35,202 ERROR 10060 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-05 14:50:35,206 ERROR 10060 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 10060
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-05 14:50:35,301 ERROR 10060 [-/undefined/-/3349ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-12-05 14:50:35,303 ERROR 10060 [-/undefined/-/4371ms GET /deliveryAddress?token=] MyError { message: '登录失效', errCode: '100005' }
+2019-12-05 14:50:35,304 ERROR 10060 [-/undefined/-/3359ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-12-05 14:50:35,305 ERROR 10060 [-/::1/-/2592ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-12-05 14:50:35,306 ERROR 10060 [-/::1/-/2605ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-12-05 15:23:53,915 ERROR 10060 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-05 15:23:53,915 ERROR 10060 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 10060
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-05 15:46:05,043 ERROR 10060 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-05 15:46:05,043 ERROR 10060 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 10060
+hostname: arraybufferdeMacBook-Pro.local
+

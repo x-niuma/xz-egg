@@ -22,8 +22,26 @@ class XzCategoryService extends Service {
     list.forEach(element => {
       if (element.parent_id) {
         const findIndex = structedList.findIndex((item) => item.id === element.parent_id);
-        structedList[findIndex].children.push(element)
+        if (findIndex !== -1) {
+          if (!structedList[findIndex].children) {
+            structedList[findIndex].children = [];
+          }
+          structedList[findIndex].children.push(element)
+        }
       }
+    });
+
+    structedList.forEach((element, elementIndex) => {
+      element.children.forEach((childElement, childIndex) => {
+        list.forEach(element => {
+          if (element.parent_id === childElement.id) {
+            if (!childElement.children) {
+              childElement.children = [];
+            }
+            childElement.children.push(element);
+          }
+        });
+      })
     })
 
     const compare = (a, b) => a.sort_num - b.sort_num;
