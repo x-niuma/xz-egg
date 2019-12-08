@@ -1545,3 +1545,319 @@ pid: 10060
 hostname: arraybufferdeMacBook-Pro.local
 
 2019-12-05 15:46:05,106 INFO 10060 [egg-redis] client connect success
+2019-12-05 16:30:57,196 ERROR 10060 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-05 16:30:57,197 ERROR 10060 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 10060
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-05 16:30:57,258 INFO 10060 [egg-redis] client connect success
+2019-12-07 23:18:52,253 INFO 1845 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-07 23:18:52,282 INFO 1845 [egg-multipart] stream mode enable
+2019-12-07 23:18:52,282 INFO 1845 [egg-mysql] connecting root@39.108.138.156:3306/xz
+2019-12-07 23:18:52,386 INFO 1845 [egg-redis] server connecting redis://:***@39.108.138.156:6379/0
+2019-12-07 23:18:52,536 INFO 1845 [egg-static] starting static serve /public/ -> /Users/arraybuffer/code/my-app/xz-egg/app/public
+2019-12-07 23:18:52,540 INFO 1845 [egg-security] use methodnoallow middleware
+2019-12-07 23:18:52,540 INFO 1845 [egg-security] use noopen middleware
+2019-12-07 23:18:52,541 INFO 1845 [egg-security] use nosniff middleware
+2019-12-07 23:18:52,542 INFO 1845 [egg-security] use xssProtection middleware
+2019-12-07 23:18:52,543 INFO 1845 [egg-security] use xframe middleware
+2019-12-07 23:18:52,543 INFO 1845 [egg-security] use dta middleware
+2019-12-07 23:18:52,544 INFO 1845 [egg-security] compose 6 middlewares into one security middleware
+2019-12-07 23:18:52,618 INFO 1845 [egg:core] dump config after load, 6ms
+2019-12-07 23:18:52,641 INFO 1845 [egg-redis] client connect success
+2019-12-07 23:18:52,650 INFO 1845 [egg-watcher:application] watcher start success
+2019-12-07 23:18:52,677 INFO 1845 [egg-redis] instance[0] status OK, client ready
+2019-12-07 23:18:52,719 INFO 1845 [egg-mysql] instance[0] status OK, rds currentTime: Sat Dec 07 2019 23:18:52 GMT+0800 (GMT+08:00)
+2019-12-07 23:18:52,741 INFO 1845 [egg:core] dump config after ready, 6ms
+2019-12-07 23:23:38,112 INFO 1875 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-07 23:23:38,142 INFO 1875 [egg-multipart] stream mode enable
+2019-12-07 23:23:38,143 INFO 1875 [egg-mysql] connecting root@39.108.138.156:3306/xz
+2019-12-07 23:23:38,206 INFO 1875 [egg-redis] server connecting redis://:***@39.108.138.156:6379/0
+2019-12-07 23:23:38,288 INFO 1875 [egg-static] starting static serve /public/ -> /Users/arraybuffer/code/my-app/xz-egg/app/public
+2019-12-07 23:23:38,291 INFO 1875 [egg-security] use methodnoallow middleware
+2019-12-07 23:23:38,291 INFO 1875 [egg-security] use noopen middleware
+2019-12-07 23:23:38,291 INFO 1875 [egg-security] use nosniff middleware
+2019-12-07 23:23:38,292 INFO 1875 [egg-security] use xssProtection middleware
+2019-12-07 23:23:38,292 INFO 1875 [egg-security] use xframe middleware
+2019-12-07 23:23:38,292 INFO 1875 [egg-security] use dta middleware
+2019-12-07 23:23:38,292 INFO 1875 [egg-security] compose 6 middlewares into one security middleware
+2019-12-07 23:23:38,347 INFO 1875 [egg:core] dump config after load, 11ms
+2019-12-07 23:23:38,366 INFO 1875 [egg-redis] client connect success
+2019-12-07 23:23:38,369 INFO 1875 [egg-watcher:application] watcher start success
+2019-12-07 23:23:38,382 INFO 1875 [egg-redis] instance[0] status OK, client ready
+2019-12-07 23:23:38,417 INFO 1875 [egg-mysql] instance[0] status OK, rds currentTime: Sat Dec 07 2019 23:23:38 GMT+0800 (GMT+08:00)
+2019-12-07 23:23:38,436 INFO 1875 [egg:core] dump config after ready, 6ms
+2019-12-07 23:23:45,995 INFO 1880 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-07 23:23:46,023 INFO 1880 [egg-multipart] stream mode enable
+2019-12-07 23:23:46,024 INFO 1880 [egg-mysql] connecting root@39.108.138.156:3306/xz
+2019-12-07 23:23:46,085 INFO 1880 [egg-redis] server connecting redis://:***@39.108.138.156:6379/0
+2019-12-07 23:23:46,173 INFO 1880 [egg-static] starting static serve /public/ -> /Users/arraybuffer/code/my-app/xz-egg/app/public
+2019-12-07 23:23:46,175 INFO 1880 [egg-security] use methodnoallow middleware
+2019-12-07 23:23:46,175 INFO 1880 [egg-security] use noopen middleware
+2019-12-07 23:23:46,176 INFO 1880 [egg-security] use nosniff middleware
+2019-12-07 23:23:46,176 INFO 1880 [egg-security] use xssProtection middleware
+2019-12-07 23:23:46,176 INFO 1880 [egg-security] use xframe middleware
+2019-12-07 23:23:46,176 INFO 1880 [egg-security] use dta middleware
+2019-12-07 23:23:46,177 INFO 1880 [egg-security] compose 6 middlewares into one security middleware
+2019-12-07 23:23:46,238 INFO 1880 [egg:core] dump config after load, 15ms
+2019-12-07 23:23:46,261 INFO 1880 [egg-redis] client connect success
+2019-12-07 23:23:46,269 INFO 1880 [egg-watcher:application] watcher start success
+2019-12-07 23:23:46,275 INFO 1880 [egg-redis] instance[0] status OK, client ready
+2019-12-07 23:23:46,316 INFO 1880 [egg-mysql] instance[0] status OK, rds currentTime: Sat Dec 07 2019 23:23:46 GMT+0800 (GMT+08:00)
+2019-12-07 23:23:46,341 INFO 1880 [egg:core] dump config after ready, 12ms
+2019-12-07 23:24:16,055 INFO 1886 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-07 23:24:16,084 INFO 1886 [egg-multipart] stream mode enable
+2019-12-07 23:24:16,085 INFO 1886 [egg-mysql] connecting root@39.108.138.156:3306/xz
+2019-12-07 23:24:16,145 INFO 1886 [egg-redis] server connecting redis://:***@39.108.138.156:6379/0
+2019-12-07 23:24:16,232 INFO 1886 [egg-static] starting static serve /public/ -> /Users/arraybuffer/code/my-app/xz-egg/app/public
+2019-12-07 23:24:16,234 INFO 1886 [egg-security] use methodnoallow middleware
+2019-12-07 23:24:16,234 INFO 1886 [egg-security] use noopen middleware
+2019-12-07 23:24:16,235 INFO 1886 [egg-security] use nosniff middleware
+2019-12-07 23:24:16,235 INFO 1886 [egg-security] use xssProtection middleware
+2019-12-07 23:24:16,236 INFO 1886 [egg-security] use xframe middleware
+2019-12-07 23:24:16,237 INFO 1886 [egg-security] use dta middleware
+2019-12-07 23:24:16,237 INFO 1886 [egg-security] compose 6 middlewares into one security middleware
+2019-12-07 23:24:16,292 INFO 1886 [egg:core] dump config after load, 13ms
+2019-12-07 23:24:16,312 INFO 1886 [egg-watcher:application] watcher start success
+2019-12-07 23:24:16,314 INFO 1886 [egg-redis] client connect success
+2019-12-07 23:24:16,336 INFO 1886 [egg-redis] instance[0] status OK, client ready
+2019-12-07 23:24:16,354 INFO 1886 [egg-mysql] instance[0] status OK, rds currentTime: Sat Dec 07 2019 23:24:16 GMT+0800 (GMT+08:00)
+2019-12-07 23:24:16,373 INFO 1886 [egg:core] dump config after ready, 8ms
+2019-12-07 23:24:16,991 INFO 1887 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-07 23:24:17,019 INFO 1887 [egg-multipart] stream mode enable
+2019-12-07 23:24:17,019 INFO 1887 [egg-mysql] connecting root@39.108.138.156:3306/xz
+2019-12-07 23:24:17,077 INFO 1887 [egg-redis] server connecting redis://:***@39.108.138.156:6379/0
+2019-12-07 23:24:17,162 INFO 1887 [egg-static] starting static serve /public/ -> /Users/arraybuffer/code/my-app/xz-egg/app/public
+2019-12-07 23:24:17,164 INFO 1887 [egg-security] use methodnoallow middleware
+2019-12-07 23:24:17,164 INFO 1887 [egg-security] use noopen middleware
+2019-12-07 23:24:17,165 INFO 1887 [egg-security] use nosniff middleware
+2019-12-07 23:24:17,165 INFO 1887 [egg-security] use xssProtection middleware
+2019-12-07 23:24:17,165 INFO 1887 [egg-security] use xframe middleware
+2019-12-07 23:24:17,166 INFO 1887 [egg-security] use dta middleware
+2019-12-07 23:24:17,166 INFO 1887 [egg-security] compose 6 middlewares into one security middleware
+2019-12-07 23:24:17,216 INFO 1887 [egg:core] dump config after load, 11ms
+2019-12-07 23:24:17,238 INFO 1887 [egg-watcher:application] watcher start success
+2019-12-07 23:24:17,310 INFO 1887 [egg-redis] client connect success
+2019-12-07 23:24:17,338 INFO 1887 [egg-redis] instance[0] status OK, client ready
+2019-12-07 23:24:17,343 INFO 1887 [egg-mysql] instance[0] status OK, rds currentTime: Sat Dec 07 2019 23:24:17 GMT+0800 (GMT+08:00)
+2019-12-07 23:24:17,358 INFO 1887 [egg:core] dump config after ready, 5ms
+2019-12-07 23:25:36,121 INFO 1897 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-07 23:25:36,151 INFO 1897 [egg-multipart] stream mode enable
+2019-12-07 23:25:36,152 INFO 1897 [egg-mysql] connecting root@39.108.138.156:3306/xz
+2019-12-07 23:25:36,218 INFO 1897 [egg-redis] server connecting redis://:***@39.108.138.156:6379/0
+2019-12-07 23:25:36,307 INFO 1897 [egg-static] starting static serve /public/ -> /Users/arraybuffer/code/my-app/xz-egg/app/public
+2019-12-07 23:25:36,310 INFO 1897 [egg-security] use methodnoallow middleware
+2019-12-07 23:25:36,310 INFO 1897 [egg-security] use noopen middleware
+2019-12-07 23:25:36,311 INFO 1897 [egg-security] use nosniff middleware
+2019-12-07 23:25:36,311 INFO 1897 [egg-security] use xssProtection middleware
+2019-12-07 23:25:36,311 INFO 1897 [egg-security] use xframe middleware
+2019-12-07 23:25:36,311 INFO 1897 [egg-security] use dta middleware
+2019-12-07 23:25:36,311 INFO 1897 [egg-security] compose 6 middlewares into one security middleware
+2019-12-07 23:25:36,360 INFO 1897 [egg:core] dump config after load, 11ms
+2019-12-07 23:25:36,382 INFO 1897 [egg-redis] client connect success
+2019-12-07 23:25:36,384 INFO 1897 [egg-watcher:application] watcher start success
+2019-12-07 23:25:36,404 INFO 1897 [egg-redis] instance[0] status OK, client ready
+2019-12-07 23:25:36,415 INFO 1897 [egg-mysql] instance[0] status OK, rds currentTime: Sat Dec 07 2019 23:25:36 GMT+0800 (GMT+08:00)
+2019-12-07 23:25:36,433 INFO 1897 [egg:core] dump config after ready, 6ms
+2019-12-07 23:25:39,865 INFO 1901 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-07 23:25:39,899 INFO 1901 [egg-multipart] stream mode enable
+2019-12-07 23:25:39,900 INFO 1901 [egg-mysql] connecting root@39.108.138.156:3306/xz
+2019-12-07 23:25:39,961 INFO 1901 [egg-redis] server connecting redis://:***@39.108.138.156:6379/0
+2019-12-07 23:25:40,048 INFO 1901 [egg-static] starting static serve /public/ -> /Users/arraybuffer/code/my-app/xz-egg/app/public
+2019-12-07 23:25:40,051 INFO 1901 [egg-security] use methodnoallow middleware
+2019-12-07 23:25:40,052 INFO 1901 [egg-security] use noopen middleware
+2019-12-07 23:25:40,052 INFO 1901 [egg-security] use nosniff middleware
+2019-12-07 23:25:40,052 INFO 1901 [egg-security] use xssProtection middleware
+2019-12-07 23:25:40,053 INFO 1901 [egg-security] use xframe middleware
+2019-12-07 23:25:40,053 INFO 1901 [egg-security] use dta middleware
+2019-12-07 23:25:40,053 INFO 1901 [egg-security] compose 6 middlewares into one security middleware
+2019-12-07 23:25:40,099 INFO 1901 [egg:core] dump config after load, 6ms
+2019-12-07 23:25:40,124 INFO 1901 [egg-redis] client connect success
+2019-12-07 23:25:40,127 INFO 1901 [egg-watcher:application] watcher start success
+2019-12-07 23:25:40,156 INFO 1901 [egg-redis] instance[0] status OK, client ready
+2019-12-07 23:25:40,168 INFO 1901 [egg-mysql] instance[0] status OK, rds currentTime: Sat Dec 07 2019 23:25:40 GMT+0800 (GMT+08:00)
+2019-12-07 23:25:40,187 INFO 1901 [egg:core] dump config after ready, 7ms
+2019-12-08 10:31:35,728 INFO 897 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-08 10:31:35,757 INFO 897 [egg-multipart] stream mode enable
+2019-12-08 10:31:35,757 INFO 897 [egg-mysql] connecting root@39.108.138.156:3306/xz
+2019-12-08 10:31:35,876 INFO 897 [egg-redis] server connecting redis://:***@39.108.138.156:6379/0
+2019-12-08 10:31:36,042 INFO 897 [egg-static] starting static serve /public/ -> /Users/arraybuffer/code/my-app/xz-egg/app/public
+2019-12-08 10:31:36,045 INFO 897 [egg-security] use methodnoallow middleware
+2019-12-08 10:31:36,046 INFO 897 [egg-security] use noopen middleware
+2019-12-08 10:31:36,047 INFO 897 [egg-security] use nosniff middleware
+2019-12-08 10:31:36,048 INFO 897 [egg-security] use xssProtection middleware
+2019-12-08 10:31:36,048 INFO 897 [egg-security] use xframe middleware
+2019-12-08 10:31:36,049 INFO 897 [egg-security] use dta middleware
+2019-12-08 10:31:36,049 INFO 897 [egg-security] compose 6 middlewares into one security middleware
+2019-12-08 10:31:36,125 INFO 897 [egg:core] dump config after load, 6ms
+2019-12-08 10:31:36,148 INFO 897 [egg-redis] client connect success
+2019-12-08 10:31:36,152 INFO 897 [egg-watcher:application] watcher start success
+2019-12-08 10:31:36,175 INFO 897 [egg-redis] instance[0] status OK, client ready
+2019-12-08 10:31:36,312 INFO 897 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 08 2019 10:31:36 GMT+0800 (GMT+08:00)
+2019-12-08 10:31:36,337 INFO 897 [egg:core] dump config after ready, 5ms
+2019-12-08 10:43:42,612 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 10:43:42,613 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 10:43:42,680 INFO 897 [egg-redis] client connect success
+2019-12-08 10:50:10,836 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 10:50:10,836 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 10:50:10,905 INFO 897 [egg-redis] client connect success
+2019-12-08 10:57:58,398 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 10:57:58,399 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 10:57:58,482 INFO 897 [egg-redis] client connect success
+2019-12-08 11:18:10,990 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 11:18:10,991 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 11:18:11,057 INFO 897 [egg-redis] client connect success
+2019-12-08 13:28:57,597 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 13:28:57,597 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 13:28:57,658 INFO 897 [egg-redis] client connect success
+2019-12-08 15:13:51,185 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 15:13:51,185 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 15:13:51,247 INFO 897 [egg-redis] client connect success
+2019-12-08 15:23:21,519 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 15:23:21,520 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 15:23:21,581 INFO 897 [egg-redis] client connect success
+2019-12-08 15:47:17,678 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 15:47:17,678 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 15:47:17,740 INFO 897 [egg-redis] client connect success
+2019-12-08 16:00:52,791 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 16:00:52,791 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 16:00:52,853 INFO 897 [egg-redis] client connect success
+2019-12-08 16:15:26,707 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 16:15:26,709 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 16:15:26,770 INFO 897 [egg-redis] client connect success
+2019-12-08 16:37:38,939 INFO 4039 [egg:logger] init all loggers with options: {"dir":"/Users/arraybuffer/code/my-app/xz-egg/logs/xz-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"xz-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-12-08 16:37:38,966 INFO 4039 [egg-multipart] stream mode enable
+2019-12-08 16:37:38,966 INFO 4039 [egg-mysql] connecting root@39.108.138.156:3306/xz
+2019-12-08 16:37:39,084 INFO 4039 [egg-redis] server connecting redis://:***@39.108.138.156:6379/0
+2019-12-08 16:37:39,239 INFO 4039 [egg-static] starting static serve /public/ -> /Users/arraybuffer/code/my-app/xz-egg/app/public
+2019-12-08 16:37:39,243 INFO 4039 [egg-security] use methodnoallow middleware
+2019-12-08 16:37:39,243 INFO 4039 [egg-security] use noopen middleware
+2019-12-08 16:37:39,244 INFO 4039 [egg-security] use nosniff middleware
+2019-12-08 16:37:39,245 INFO 4039 [egg-security] use xssProtection middleware
+2019-12-08 16:37:39,246 INFO 4039 [egg-security] use xframe middleware
+2019-12-08 16:37:39,246 INFO 4039 [egg-security] use dta middleware
+2019-12-08 16:37:39,246 INFO 4039 [egg-security] compose 6 middlewares into one security middleware
+2019-12-08 16:37:39,335 INFO 4039 [egg:core] dump config after load, 15ms
+2019-12-08 16:37:39,364 INFO 4039 [egg-redis] client connect success
+2019-12-08 16:37:39,370 INFO 4039 [egg-watcher:application] watcher start success
+2019-12-08 16:37:39,374 INFO 4039 [egg-redis] instance[0] status OK, client ready
+2019-12-08 16:37:39,473 INFO 4039 [egg-mysql] instance[0] status OK, rds currentTime: Sun Dec 08 2019 16:37:39 GMT+0800 (GMT+08:00)
+2019-12-08 16:37:39,499 INFO 4039 [egg:core] dump config after ready, 7ms
+2019-12-08 18:51:15,548 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 18:51:15,550 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 4039
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 18:51:15,621 INFO 4039 [egg-redis] client connect success
+2019-12-08 21:01:51,169 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 21:01:51,170 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 4039
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 21:01:51,241 INFO 4039 [egg-redis] client connect success
+2019-12-08 23:01:21,164 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 23:01:21,164 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 4039
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 23:01:21,226 INFO 4039 [egg-redis] client connect success

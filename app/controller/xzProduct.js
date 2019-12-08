@@ -14,6 +14,8 @@ class XzProductController extends Controller {
       pageSize 
     } = this.ctx.request.query;
 
+    console.log(pageSize, pageIndex);
+
     this.ctx.body = await this.ctx.service.xzProduct.index({
       categoryId,
       pageIndex,
@@ -92,10 +94,12 @@ class XzProductController extends Controller {
    * 包括上架以及未上架状态
    */
   async getProductByUserId () {
-    const { token } = this.ctx.request.query;
+    const { token, pageIndex, pageSize } = this.ctx.request.query;
     const uid = await this.ctx.service.user.getUserIdByToken(token);
     this.ctx.body = await this.ctx.service.xzProduct.index({
-      uid
+      uid,
+      pageSize,
+      pageIndex,
     });
   }
 

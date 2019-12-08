@@ -15,9 +15,6 @@ class XzProductService extends Service {
     if (uid) options.uid = uid;
     if (categoryId) options.category_id = categoryId;
 
-    const sql = `SELECT COUNT(*) FROM xz_product`;
-    const data = await this.app.mysql.query(sql);
-
     let totalList = await this.app.mysql.select('xz_product', {
       where: options
     });

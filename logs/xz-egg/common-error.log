@@ -212,3 +212,144 @@ name: "ETIMEDOUTError"
 pid: 10060
 hostname: arraybufferdeMacBook-Pro.local
 
+2019-12-05 16:30:57,196 ERROR 10060 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-05 16:30:57,197 ERROR 10060 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 10060
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 10:43:42,611 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 10:43:42,613 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 10:50:10,835 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 10:50:10,836 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 10:57:58,398 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 10:57:58,399 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 11:18:10,990 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 11:18:10,991 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 13:28:57,596 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 13:28:57,597 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 15:13:51,184 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 15:13:51,185 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 15:23:21,519 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 15:23:21,519 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 15:47:17,678 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 15:47:17,678 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 16:00:52,790 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 16:00:52,791 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 16:15:26,706 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 16:15:26,709 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 897
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 16:39:27,405 ERROR 4039 [-/127.0.0.1/-/31ms GET /user/totalInfo?] MyError { message: '登录已失效', errCode: '100005' }
+2019-12-08 18:51:15,547 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 18:51:15,549 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 4039
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 21:01:51,169 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 21:01:51,170 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 4039
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-08 23:01:21,164 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-08 23:01:21,164 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 4039
+hostname: arraybufferdeMacBook-Pro.local
+

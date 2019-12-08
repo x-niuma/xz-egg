@@ -12,3 +12,4 @@ hostname: arraybufferdeMacBook-Pro.local
 2019-12-05 14:50:35,305 ERROR 10060 [-/undefined/-/3359ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
 2019-12-05 14:50:35,305 ERROR 10060 [-/::1/-/2592ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
 2019-12-05 14:50:35,306 ERROR 10060 [-/::1/-/2605ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-12-08 16:39:27,405 ERROR 4039 [-/127.0.0.1/-/31ms GET /user/totalInfo?] MyError { message: '登录已失效', errCode: '100005' }
