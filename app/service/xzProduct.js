@@ -105,26 +105,45 @@ class XzProductService extends Service {
    * 创建 xzProduct
    */
   async create({
-    uid,
-    title,
-    price,
-    city,
-    description,
-    depreciation,
-    imgs,
-    categoryId,
-    tradeWayId
+      uid,
+      title,
+      price,
+      description,
+      depreciation,
+      imgs,
+      province,
+      provinceCode,
+      city,
+      cityCode,
+      district,
+      districtCode,
+      categoryId,
+      categoryName,
+      brandId,
+      brandName,
+      skuId,
+      skuName
   }) {
     const result = await this.app.mysql.insert('xz_product', {
       uid,
       title,
       price,
-      city,
       description,
       depreciation,
       imgs,
+      province,
+      province_code: provinceCode,
+      city,
+      city_Code: cityCode,
+      district,
+      district_code: districtCode,
       category_id: categoryId,
-      trade_way_id: tradeWayId
+      category_name: categoryName,
+      brand_id: brandId,
+      brand_name: brandName,
+      sku_id: skuId,
+      sku_name: skuName,
+      trade_way_id: ''
     });
     if (result.affectedRows === 1) {
       return {
@@ -149,26 +168,45 @@ class XzProductService extends Service {
     uid,
     title,
     price,
-    city,
     description,
     depreciation,
     imgs,
+    province,
+    provinceCode,
+    city,
+    cityCode,
+    district,
+    districtCode,
     categoryId,
-    tradeWayId
+    categoryName,
+    brandId,
+    brandName,
+    skuId,
+    skuName
   }) {
     const row = {
       title,
       price,
-      city,
       description,
       depreciation,
       imgs,
+      province,
+      province_code: provinceCode,
+      city,
+      city_Code: cityCode,
+      district,
+      district_code: districtCode,
       category_id: categoryId,
-      trade_way_id: tradeWayId
+      category_name: categoryName,
+      brand_id: brandId,
+      brand_name: brandName,
+      sku_id: skuId,
+      sku_name: skuName,
     }
     const options = {
       where: {
-        id: itemId
+        id: itemId,
+        uid: uid,
       }
     }
     const result = await this.app.mysql.update('xz_product', row, options);

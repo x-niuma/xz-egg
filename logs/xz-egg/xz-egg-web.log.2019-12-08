@@ -1,0 +1,15 @@
+2019-12-05 09:31:30,413 ERROR 752 [-/::1/-/26ms GET /xzCategory] nodejs.TypeError: Cannot read property 'children' of undefined
+    at list.forEach.element (/Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js:25:38)
+    at Array.forEach (<anonymous>)
+    at XzCategoryService.index (/Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js:22:10)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 752
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-05 14:50:35,301 ERROR 10060 [-/undefined/-/3349ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-12-05 14:50:35,304 ERROR 10060 [-/undefined/-/4371ms GET /deliveryAddress?token=] MyError { message: '登录失效', errCode: '100005' }
+2019-12-05 14:50:35,305 ERROR 10060 [-/undefined/-/3359ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-12-05 14:50:35,305 ERROR 10060 [-/::1/-/2592ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-12-05 14:50:35,306 ERROR 10060 [-/::1/-/2605ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
+2019-12-08 16:39:27,405 ERROR 4039 [-/127.0.0.1/-/31ms GET /user/totalInfo?] MyError { message: '登录已失效', errCode: '100005' }

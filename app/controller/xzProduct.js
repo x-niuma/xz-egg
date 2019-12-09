@@ -37,24 +37,42 @@ class XzProductController extends Controller {
     const {
       title,
       price,
-      city,
       description,
       depreciation,
       imgs,
+      province,
+      provinceCode,
+      city,
+      cityCode,
+      district,
+      districtCode,
       categoryId,
-      tradeWayId
+      categoryName,
+      brandId,
+      brandName,
+      skuId,
+      skuName
     } = this.ctx.request.body;
     const uid = await this.ctx.service.user.getUserIdByToken(token);
     this.ctx.body = await this.ctx.service.xzProduct.create({
       uid,
       title,
       price,
-      city,
       description,
       depreciation,
       imgs,
+      province,
+      provinceCode,
+      city,
+      cityCode,
+      district,
+      districtCode,
       categoryId,
-      tradeWayId
+      categoryName,
+      brandId,
+      brandName,
+      skuId,
+      skuName
     });
   }
 
@@ -67,12 +85,21 @@ class XzProductController extends Controller {
     const {
       title,
       price,
-      city,
       description,
       depreciation,
       imgs,
+      province,
+      provinceCode,
+      city,
+      cityCode,
+      district,
+      districtCode,
       categoryId,
-      tradeWayId
+      categoryName,
+      brandId,
+      brandName,
+      skuId,
+      skuName
     } = this.ctx.request.body;
     const uid = await this.ctx.service.user.getUserIdByToken(token);
     this.ctx.body = await this.ctx.service.xzProduct.update({
@@ -80,12 +107,21 @@ class XzProductController extends Controller {
       uid,
       title,
       price,
-      city,
       description,
       depreciation,
       imgs,
+      province,
+      provinceCode,
+      city,
+      cityCode,
+      district,
+      districtCode,
       categoryId,
-      tradeWayId
+      categoryName,
+      brandId,
+      brandName,
+      skuId,
+      skuName
     });
   }
 

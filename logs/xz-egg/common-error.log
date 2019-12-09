@@ -1,330 +1,45 @@
-2019-11-30 13:59:29,983 ERROR 6944 nodejs.ClusterClientNoResponseError: client no response in 7070820ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2019-12-09 03:57:50,602 ERROR 4035 nodejs.ClusterClientNoResponseError: client no response in 7215954ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 6944
+pid: 4035
 hostname: arraybufferdeMacBook-Pro.local
 
-2019-11-30 15:02:32,096 ERROR 8275 [egg-redis] client error: Error: read ETIMEDOUT
-2019-11-30 15:02:32,097 ERROR 8275 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 8275
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-11-30 17:12:58,878 ERROR 8275 [egg-redis] client error: Error: read ETIMEDOUT
-2019-11-30 17:12:58,878 ERROR 8275 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 8275
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-11-30 18:51:57,554 ERROR 6944 nodejs.ClusterClientNoResponseError: client no response in 4379051ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2019-12-09 05:58:28,569 ERROR 4035 nodejs.ClusterClientNoResponseError: client no response in 7217960ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 6944
+pid: 4035
 hostname: arraybufferdeMacBook-Pro.local
 
-2019-11-30 21:06:45,815 ERROR 8632 [egg-redis] client error: Error: read ETIMEDOUT
-2019-11-30 21:06:45,817 ERROR 8632 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 8632
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-11-30 22:03:12,970 ERROR 9006 [egg-redis] client error: Error: read ETIMEDOUT
-2019-11-30 22:03:12,972 ERROR 9006 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 9006
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-11-30 22:31:15,665 ERROR 9006 [egg-redis] client error: Error: read ETIMEDOUT
-2019-11-30 22:31:15,666 ERROR 9006 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 9006
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-01 15:11:58,426 ERROR 774 [egg-redis] client error: Error: read ECONNRESET
-2019-12-01 15:11:58,428 ERROR 774 nodejs.ECONNRESETError: read ECONNRESET
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ECONNRESET"
-code: "ECONNRESET"
-syscall: "read"
-name: "ECONNRESETError"
-pid: 774
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-01 15:37:39,017 ERROR 773 nodejs.ClusterClientNoResponseError: client no response in 84851ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2019-12-09 07:59:26,115 ERROR 4035 nodejs.ClusterClientNoResponseError: client no response in 7217308ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 773
+pid: 4035
 hostname: arraybufferdeMacBook-Pro.local
 
-2019-12-01 16:22:51,046 ERROR 773 nodejs.ClusterClientNoResponseError: client no response in 2672013ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+2019-12-09 09:30:09,127 ERROR 4035 nodejs.ClusterClientNoResponseError: client no response in 5403132ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
     at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
     at ontimeout (timers.js:436:11)
     at tryOnTimeout (timers.js:300:5)
     at listOnTimeout (timers.js:263:5)
     at Timer.processTimers (timers.js:223:10)
 name: "ClusterClientNoResponseError"
-pid: 773
+pid: 4035
 hostname: arraybufferdeMacBook-Pro.local
 
-2019-12-01 18:23:48,500 ERROR 773 nodejs.ClusterClientNoResponseError: client no response in 7217429ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 773
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-01 18:44:51,002 ERROR 773 nodejs.ClusterClientNoResponseError: client no response in 1242475ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
-    at ontimeout (timers.js:436:11)
-    at tryOnTimeout (timers.js:300:5)
-    at listOnTimeout (timers.js:263:5)
-    at Timer.processTimers (timers.js:223:10)
-name: "ClusterClientNoResponseError"
-pid: 773
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-01 18:45:24,668 ERROR 774 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-01 18:45:24,668 ERROR 774 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 774
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-02 22:05:32,689 ERROR 18710 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-02 22:05:32,691 ERROR 18710 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 18710
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-02 22:09:58,564 ERROR 18710 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-02 22:09:58,564 ERROR 18710 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 18710
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-05 09:31:30,413 ERROR 752 [-/::1/-/26ms GET /xzCategory] nodejs.TypeError: Cannot read property 'children' of undefined
-    at list.forEach.element (/Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js:25:38)
-    at Array.forEach (<anonymous>)
-    at XzCategoryService.index (/Users/arraybuffer/code/my-app/xz-egg/app/service/xzCategory.js:22:10)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-
-pid: 752
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-05 10:44:36,033 ERROR 920 [egg-redis] client error: Error: read ECONNRESET
-2019-12-05 10:44:36,034 ERROR 920 nodejs.ECONNRESETError: read ECONNRESET
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ECONNRESET"
-code: "ECONNRESET"
-syscall: "read"
-name: "ECONNRESETError"
-pid: 920
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-05 13:02:44,915 ERROR 920 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-05 13:02:44,916 ERROR 920 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 920
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-05 14:50:35,202 ERROR 10060 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-05 14:50:35,206 ERROR 10060 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 10060
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-05 14:50:35,301 ERROR 10060 [-/undefined/-/3349ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-12-05 14:50:35,303 ERROR 10060 [-/undefined/-/4371ms GET /deliveryAddress?token=] MyError { message: '登录失效', errCode: '100005' }
-2019-12-05 14:50:35,304 ERROR 10060 [-/undefined/-/3359ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-12-05 14:50:35,305 ERROR 10060 [-/::1/-/2592ms GET /user/totalInfo?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-12-05 14:50:35,306 ERROR 10060 [-/::1/-/2605ms GET /checkin?token=] MyError { message: '登录已失效', errCode: '100005' }
-2019-12-05 15:23:53,915 ERROR 10060 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-05 15:23:53,915 ERROR 10060 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 10060
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-05 15:46:05,043 ERROR 10060 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-05 15:46:05,043 ERROR 10060 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 10060
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-05 16:30:57,196 ERROR 10060 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-05 16:30:57,197 ERROR 10060 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 10060
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-08 10:43:42,611 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-08 10:43:42,613 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 897
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-08 10:50:10,835 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-08 10:50:10,836 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 897
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-08 10:57:58,398 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-08 10:57:58,399 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 897
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-08 11:18:10,990 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-08 11:18:10,991 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 897
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-08 13:28:57,596 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-08 13:28:57,597 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 897
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-08 15:13:51,184 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-08 15:13:51,185 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 897
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-08 15:23:21,519 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-08 15:23:21,519 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 897
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-08 15:47:17,678 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-08 15:47:17,678 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 897
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-08 16:00:52,790 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-08 16:00:52,791 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 897
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-08 16:15:26,706 ERROR 897 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-08 16:15:26,709 ERROR 897 nodejs.ETIMEDOUTError: read ETIMEDOUT
-    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
-errno: "ETIMEDOUT"
-code: "ETIMEDOUT"
-syscall: "read"
-name: "ETIMEDOUTError"
-pid: 897
-hostname: arraybufferdeMacBook-Pro.local
-
-2019-12-08 16:39:27,405 ERROR 4039 [-/127.0.0.1/-/31ms GET /user/totalInfo?] MyError { message: '登录已失效', errCode: '100005' }
-2019-12-08 18:51:15,547 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-08 18:51:15,549 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
+2019-12-09 09:33:42,318 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-09 09:33:42,319 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
     at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
 errno: "ETIMEDOUT"
 code: "ETIMEDOUT"
@@ -333,8 +48,28 @@ name: "ETIMEDOUTError"
 pid: 4039
 hostname: arraybufferdeMacBook-Pro.local
 
-2019-12-08 21:01:51,169 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-08 21:01:51,170 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
+2019-12-09 11:38:54,471 ERROR 4035 nodejs.ClusterClientNoResponseError: client no response in 1894482ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 4035
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-09 11:46:59,643 ERROR 4035 nodejs.ClusterClientNoResponseError: client no response in 265087ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/arraybuffer/code/my-app/xz-egg/node_modules/_cluster-client@3.0.1@cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+name: "ClusterClientNoResponseError"
+pid: 4035
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-09 12:56:16,942 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-09 12:56:16,942 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
     at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
 errno: "ETIMEDOUT"
 code: "ETIMEDOUT"
@@ -343,13 +78,63 @@ name: "ETIMEDOUTError"
 pid: 4039
 hostname: arraybufferdeMacBook-Pro.local
 
-2019-12-08 23:01:21,164 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
-2019-12-08 23:01:21,164 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
+2019-12-09 15:06:55,897 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-09 15:06:55,897 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
     at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
 errno: "ETIMEDOUT"
 code: "ETIMEDOUT"
 syscall: "read"
 name: "ETIMEDOUTError"
 pid: 4039
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-09 17:17:35,462 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-09 17:17:35,463 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 4039
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-09 19:28:18,830 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-09 19:28:18,830 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 4039
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-09 21:40:16,421 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-09 21:40:16,422 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 4039
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-09 23:56:00,611 ERROR 4039 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-09 23:56:00,611 ERROR 4039 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 4039
+hostname: arraybufferdeMacBook-Pro.local
+
+2019-12-10 01:17:50,403 ERROR 9441 [egg-redis] client error: Error: read ETIMEDOUT
+2019-12-10 01:17:50,405 ERROR 9441 nodejs.ETIMEDOUTError: read ETIMEDOUT
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ETIMEDOUT"
+code: "ETIMEDOUT"
+syscall: "read"
+name: "ETIMEDOUTError"
+pid: 9441
 hostname: arraybufferdeMacBook-Pro.local
 
