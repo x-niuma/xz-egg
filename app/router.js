@@ -6,6 +6,8 @@
 module.exports = app => {
   const { router, controller, io } = app
   router.get('/', controller.home.index)
+  router.get('/home/mainAdvert', controller.home.mainAdvert)
+  router.get('/home/mainMenu', controller.home.mainMenu)
 
   // 用户模块----------------------------------------------------------------------------------
   router.post('/user/login', controller.user.login)
