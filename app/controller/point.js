@@ -1,3 +1,4 @@
+// app/controller/point.js
 'use strict';
 
 const Controller = require('egg').Controller;
@@ -5,9 +6,8 @@ const Controller = require('egg').Controller;
 class PointController extends Controller {
   async list() {
     const { ctx } = this;
-    const { token } = ctx.request.query;
-
-    this.ctx.body = await this.ctx.service.point.list(token);
+    const { token, pageIndex, pageSize } = ctx.request.query;
+    this.ctx.body = await this.ctx.service.point.list(token, pageIndex, pageSize);
   }
 }
 

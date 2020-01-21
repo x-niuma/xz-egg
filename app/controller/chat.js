@@ -3,7 +3,9 @@
  * @author Gaollard
  */
 'use strict';
+
 const Controller = require('egg').Controller;
+
 class CheckinController extends Controller {
   async index() {
     const { token } = this.ctx.request.query;
