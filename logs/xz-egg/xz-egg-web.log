@@ -1,0 +1,10 @@
+2020-02-20 17:40:00,066 ERROR 8446 [-/::1/-/17ms GET /user/totalInfo?token=d3dd8a52a750d20c7c3f59ddea223078] MyError { message: '登录已失效', errCode: '100005' }
+2020-02-20 17:40:00,068 ERROR 8446 [-/::1/-/20ms GET /checkin?token=d3dd8a52a750d20c7c3f59ddea223078] MyError { message: '登录已失效', errCode: '100005' }
+2020-02-20 17:40:13,282 ERROR 8446 [-/::1/-/15ms GET /user/totalInfo?token=d3dd8a52a750d20c7c3f59ddea223078] MyError { message: '登录已失效', errCode: '100005' }
+2020-02-20 17:40:13,282 ERROR 8446 [-/::1/-/14ms GET /checkin?token=d3dd8a52a750d20c7c3f59ddea223078] MyError { message: '登录已失效', errCode: '100005' }
+2020-02-20 17:40:30,841 ERROR 8446 [-/::1/-/24ms GET /user/totalInfo?token=d3dd8a52a750d20c7c3f59ddea223078] MyError { message: '登录已失效', errCode: '100005' }
+2020-02-20 17:40:30,841 ERROR 8446 [-/::1/-/24ms GET /checkin?token=d3dd8a52a750d20c7c3f59ddea223078] MyError { message: '登录已失效', errCode: '100005' }
+2020-02-20 18:33:32,622 ERROR 9411 [-/::1/-/17ms GET /user/totalInfo?token=d3dd8a52a750d20c7c3f59ddea223078] MyError { message: '登录已失效', errCode: '100005' }
+2020-02-20 18:33:32,623 ERROR 9411 [-/::1/-/18ms GET /checkin?token=d3dd8a52a750d20c7c3f59ddea223078] MyError { message: '登录已失效', errCode: '100005' }
+2020-02-20 18:33:35,799 ERROR 9411 [-/::1/-/14ms GET /user/totalInfo?token=d3dd8a52a750d20c7c3f59ddea223078] MyError { message: '登录已失效', errCode: '100005' }
+2020-02-20 18:33:35,801 ERROR 9411 [-/::1/-/15ms GET /checkin?token=d3dd8a52a750d20c7c3f59ddea223078] MyError { message: '登录已失效', errCode: '100005' }

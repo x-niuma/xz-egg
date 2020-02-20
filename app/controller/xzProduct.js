@@ -140,10 +140,16 @@ class XzProductController extends Controller {
   }
 
   async search () {
-    const { keyword } = this.ctx.request.query;
-    this.ctx.body = await this.ctx.service.xzProduct.search({
-      keyword
-    })
+    const { keyword, skuId } = this.ctx.request.query;
+    if (keyword) {
+      this.ctx.body = await this.ctx.service.xzProduct.search({
+        keyword
+      })
+    } else {
+      this.ctx.body = await this.ctx.service.xzProduct.getProductBySkuId({
+        skuId
+      })
+    }
   }
 }
 

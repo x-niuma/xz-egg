@@ -228,7 +228,7 @@ class XzProductService extends Service {
   async search({ keyword }) {
     let list = [];
     if (keyword) {
-      let sql = `SELECT * FROM xz_product WHERE POSITION("${keyword}" IN title);`
+      let sql = `SELECT * FROM xz_product WHERE POSITION("${keyword}" IN title)`
       list = await this.app.mysql.query(sql);
     }
     return {
@@ -239,6 +239,65 @@ class XzProductService extends Service {
         list: list
       }
     }
+  }
+
+  /**
+   * 查询闲置商品
+   * @param uid 用户ID
+   * @param categoryId 类目ID
+   */
+  async getProductBySkuId({ skuId, pageIndex = 0, pageSize = 10 }) {
+    let sql = `SELECT * FROM xz_product WHERE sku_id = ${skuId}`
+    let totalList = await this.app.mysql.query(sql);
+    
+    let list = await this.app.mysql.select('xz_product', {
+      where: {
+        sku_id: skuId
+      },
+      limit: +pageSize,
+      offset: +pageIndex * +pageSize
+    });
+    
+    list.forEach(element => {
+      if (element.imgs) {
+        element.imgs = JSON.parse(element.imgs);
+      }
+    });
+
+    if (list.length) {
+      const uidList = []
+      list.forEach(item => {
+        uidList.push(item.uid);
+      });
+  
+      const userList = await this.app.mysql.select('user', {
+        where: {
+          id: uidList
+        }
+      });
+  
+      list.forEach(productElement => {
+        userList.forEach(userElement => {
+          if (productElement.uid === userElement.id) {
+            productElement.userInfo = userElement;
+          }
+        });
+      });
+    }
+
+    return {
+      retCode: '0',
+      errCode: '0',
+      errMsg: '',
+      data: {
+        list,
+        pageInfo: {
+          pageIndex,
+          pageSize,
+          total: totalList.length
+        }
+      }
+    };
   }
 }
 
