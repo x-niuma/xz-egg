@@ -106,6 +106,18 @@ class UserController extends Controller {
       token
     });
   }
+
+  /**
+   * @description 获取用户信息
+   */
+  async getUserList() {
+    const { ctx } = this;
+    const { pageSize, pageIndex } = ctx.request.query;
+    ctx.body = await ctx.service.user.getUserList({
+      pageSize,
+      pageIndex
+    });
+  }
 }
 
 module.exports = UserController;

@@ -17,6 +17,7 @@ module.exports = app => {
   router.post('/user/userInfo', controller.user.updateUserInfo)
   router.get('/user/profile', controller.user.getUserProfile)
   router.get('/user/totalInfo', controller.user.getUserTotalInfo)
+  router.get('/user/getUserList', controller.user.getUserList)
 
   // 关注
   router.get('/follow', controller.userCollect.followList) // 获取我关注的人

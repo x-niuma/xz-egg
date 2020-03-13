@@ -2,8 +2,11 @@
  * @documention 签到
  * @author Gaollard
  */
+
 'use strict';
+
 const Controller = require('egg').Controller;
+
 class CheckinController extends Controller {
   /**
    * @description 签到

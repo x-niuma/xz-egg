@@ -133,6 +133,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/user/getUserList",
+    "regexp": "/^\\/user\\/getUserList(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/follow",
     "regexp": "/^\\/follow(?:\\/(?=$))?$/",
     "stack": [

@@ -287,7 +287,33 @@ class UserService extends Service {
     }
   }
 
-  // 获取用户介绍信息
+  /**
+   * @desc 获取用户列表, 只对管理员开放
+   */
+  async getUserList({ pageSize, pageIndex }) {
+    let totalList = await this.app.mysql.select('user');
+    let users = await this.app.mysql.select('user', {
+      limit: +pageSize,
+      offset: +pageIndex * +pageSize
+    });
+    return {
+      retCode: '0',
+      errCode: '0',
+      errMsg: '',
+      data: {
+        list: users,
+        pageInfo: {
+          pageIndex,
+          pageSize,
+          total: totalList.length
+        }
+      }
+    };
+  }
+
+  /**
+   * @desc 获取用户介绍信息
+   */
   async getUserProfile ({ uid }) {
     let user = await this.app.mysql.get('user', { id: uid });
     if (user) {
